@@ -1,0 +1,4887 @@
+{
+  "customers": [
+    {
+      "id": "cust_0001",
+      "name": "Aarav Sharma",
+      "phone": "+919879643129",
+      "email": "aarav.sharma17@gmail.com",
+      "total_failed": 2,
+      "total_recovered": 2,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-29T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0002",
+      "name": "Vihaan Reddy",
+      "phone": "+919919523392",
+      "email": "vihaan.reddy10@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-10T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0003",
+      "name": "Aditya Kumar",
+      "phone": "+919766927427",
+      "email": "aditya.kumar55@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-06T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0004",
+      "name": "Rohan Nair",
+      "phone": "+919124272585",
+      "email": "rohan.nair90@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-15T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0005",
+      "name": "Reyansh Malhotra",
+      "phone": "+918813286797",
+      "email": "reyansh.malhotra23@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 2,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-20T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0006",
+      "name": "Kabir Kapoor",
+      "phone": "+917052870017",
+      "email": "kabir.kapoor77@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-27T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0007",
+      "name": "Ananya Shah",
+      "phone": "+918021988083",
+      "email": "ananya.shah31@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-18T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0008",
+      "name": "Diya Verma",
+      "phone": "+919823395079",
+      "email": "diya.verma92@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-09-03T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0009",
+      "name": "Ishaan Singh",
+      "phone": "+919996963920",
+      "email": "ishaan.singh95@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-12T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0010",
+      "name": "Aanya Mehta",
+      "phone": "+919741689087",
+      "email": "aanya.mehta93@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-15T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0011",
+      "name": "Pooja Iyer",
+      "phone": "+919192701936",
+      "email": "pooja.iyer17@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-06T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0012",
+      "name": "Rahul Bhatia",
+      "phone": "+918812960030",
+      "email": "rahul.bhatia23@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-12T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0013",
+      "name": "Priya Mishra",
+      "phone": "+917063725951",
+      "email": "priya.mishra67@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-23T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0014",
+      "name": "Amit Banerjee",
+      "phone": "+918067867513",
+      "email": "amit.banerjee40@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-19T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0015",
+      "name": "Neha Patel",
+      "phone": "+919851083392",
+      "email": "neha.patel20@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-30T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0016",
+      "name": "Vikas Gupta",
+      "phone": "+919915010506",
+      "email": "vikas.gupta63@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-11T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0017",
+      "name": "Deepak Joshi",
+      "phone": "+919745671150",
+      "email": "deepak.joshi84@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 2,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-27T09:44:57.227Z",
+      "updated_at": "2026-09-05T10:16:37.270Z"
+    },
+    {
+      "id": "cust_0018",
+      "name": "Sneha Chopra",
+      "phone": "+919145067870",
+      "email": "sneha.chopra86@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-13T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0019",
+      "name": "Arjun Saxena",
+      "phone": "+918846846272",
+      "email": "arjun.saxena48@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-10T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0020",
+      "name": "Tanvi Agarwal",
+      "phone": "+917047176017",
+      "email": "tanvi.agarwal54@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-06T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0021",
+      "name": "Siddharth Sharma",
+      "phone": "+918044050848",
+      "email": "siddharth.sharma65@gmail.com",
+      "total_failed": 3,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-09T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0022",
+      "name": "Meera Reddy",
+      "phone": "+919852022646",
+      "email": "meera.reddy79@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-17T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0023",
+      "name": "Gaurav Kumar",
+      "phone": "+919997068732",
+      "email": "gaurav.kumar39@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-28T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0024",
+      "name": "Shreya Nair",
+      "phone": "+919755049786",
+      "email": "shreya.nair62@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-16T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0025",
+      "name": "Karan Malhotra",
+      "phone": "+919192625935",
+      "email": "karan.malhotra52@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 2,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-18T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0026",
+      "name": "Kavita Kapoor",
+      "phone": "+918892615193",
+      "email": "kavita.kapoor94@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-18T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0027",
+      "name": "Manish Shah",
+      "phone": "+917055368019",
+      "email": "manish.shah90@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-16T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0028",
+      "name": "Simran Verma",
+      "phone": "+918096528696",
+      "email": "simran.verma86@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-19T09:44:57.227Z",
+      "updated_at": "2026-09-05T11:41:21.793Z"
+    },
+    {
+      "id": "cust_0029",
+      "name": "Varun Singh",
+      "phone": "+919866052937",
+      "email": "varun.singh71@gmail.com",
+      "total_failed": 3,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-22T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0030",
+      "name": "Ritu Mehta",
+      "phone": "+919974369007",
+      "email": "ritu.mehta80@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-20T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0031",
+      "name": "Kunal Iyer",
+      "phone": "+919741297071",
+      "email": "kunal.iyer32@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-06T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0032",
+      "name": "Sanya Bhatia",
+      "phone": "+919152812725",
+      "email": "sanya.bhatia42@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-10T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0033",
+      "name": "Naveen Mishra",
+      "phone": "+918829862540",
+      "email": "naveen.mishra83@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-09T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0034",
+      "name": "Divya Banerjee",
+      "phone": "+917081209431",
+      "email": "divya.banerjee77@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-26T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0035",
+      "name": "Suresh Patel",
+      "phone": "+918034883804",
+      "email": "suresh.patel86@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-10T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0036",
+      "name": "Swati Gupta",
+      "phone": "+919826163847",
+      "email": "swati.gupta76@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-16T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0037",
+      "name": "Harsh Joshi",
+      "phone": "+919996790169",
+      "email": "harsh.joshi49@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-26T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0038",
+      "name": "Preeti Chopra",
+      "phone": "+919768753790",
+      "email": "preeti.chopra65@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-15T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0039",
+      "name": "Sunil Saxena",
+      "phone": "+919123806884",
+      "email": "sunil.saxena53@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-09-01T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0040",
+      "name": "Rashmi Agarwal",
+      "phone": "+918892649056",
+      "email": "rashmi.agarwal41@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-20T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0041",
+      "name": "Prateek Sharma",
+      "phone": "+917087117460",
+      "email": "prateek.sharma18@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 1,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-16T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0042",
+      "name": "Pallavi Reddy",
+      "phone": "+918079432869",
+      "email": "pallavi.reddy36@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-31T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0043",
+      "name": "Akash Kumar",
+      "phone": "+919841767671",
+      "email": "akash.kumar46@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-20T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0044",
+      "name": "Shweta Nair",
+      "phone": "+919962458253",
+      "email": "shweta.nair20@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-09-03T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0045",
+      "name": "Abhishek Malhotra",
+      "phone": "+919761865997",
+      "email": "abhishek.malhotra55@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 2,
+      "do_not_contact": true,
+      "opted_out_at": "2026-09-05T05:44:57.227Z",
+      "created_at": "2026-08-12T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0046",
+      "name": "Monika Kapoor",
+      "phone": "+919155395716",
+      "email": "monika.kapoor44@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": true,
+      "opted_out_at": "2026-09-05T05:44:57.227Z",
+      "created_at": "2026-08-10T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0047",
+      "name": "Rajat Shah",
+      "phone": "+918858879417",
+      "email": "rajat.shah26@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": true,
+      "opted_out_at": "2026-09-05T05:44:57.227Z",
+      "created_at": "2026-08-12T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0048",
+      "name": "Bhavna Verma",
+      "phone": "+917017965747",
+      "email": "bhavna.verma76@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": true,
+      "opted_out_at": "2026-09-05T05:44:57.227Z",
+      "created_at": "2026-08-30T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0049",
+      "name": "Alok Singh",
+      "phone": "+918056208266",
+      "email": "alok.singh96@gmail.com",
+      "total_failed": 4,
+      "total_recovered": 1,
+      "do_not_contact": true,
+      "opted_out_at": "2026-09-05T05:44:57.227Z",
+      "created_at": "2026-08-18T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0050",
+      "name": "Smriti Mehta",
+      "phone": "+919883534803",
+      "email": "smriti.mehta38@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-24T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0051",
+      "name": "Aarav Iyer",
+      "phone": "+919918023806",
+      "email": "aarav.iyer39@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-17T09:44:57.227Z"
+    },
+    {
+      "id": "cust_0052",
+      "name": "Vihaan Bhatia",
+      "phone": "+919786352917",
+      "email": "vihaan.bhatia94@gmail.com",
+      "total_failed": 1,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "opted_out_at": null,
+      "created_at": "2026-08-21T09:44:57.227Z"
+    },
+    {
+      "id": "cust_1788602919767",
+      "name": "Aditi Rao",
+      "phone": "+919876500001",
+      "email": "test.customer@example.com",
+      "total_failed": 3,
+      "total_recovered": 0,
+      "do_not_contact": false,
+      "created_at": "2026-09-05T10:08:39.767Z",
+      "updated_at": "2026-09-05T10:11:51.140Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_test_funnel_1788623496268",
+      "razorpay_payment_id": "pay_test_1788623496268",
+      "customer_id": "cust_001",
+      "amount": 3499,
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "PSP timer expired during UPI handle verification",
+      "recoverability_score": 85,
+      "status": "recovered",
+      "created_at": "2026-09-05T15:51:36.268Z",
+      "updated_at": "2026-09-05T15:51:36.275Z",
+      "retry_payment_link": "https://rzp.io/i/test_funnel_1788623496268",
+      "recovery_attempts": [],
+      "funnel_stage": "recovered"
+    },
+    {
+      "id": "tx_test_funnel_1788623264460",
+      "order_id": "order_test_1788623264460",
+      "customer_id": "cust_001",
+      "amount": 3499,
+      "currency": "INR",
+      "failure_bucket": "upi_timeout",
+      "failure_reason": "PSP timer expired during UPI handle verification",
+      "error_code": "BAD_REQUEST_TIMEOUT",
+      "status": "recovered",
+      "stage_reached": "payment_method_selected",
+      "created_at": "2026-09-05T15:47:44.460Z",
+      "updated_at": "2026-09-05T15:47:44.468Z",
+      "retry_payment_link": "https://rzp.io/i/test_funnel_1788623264461",
+      "recovery_attempts": [],
+      "funnel_stage": "recovered"
+    },
+    {
+      "id": "tx_test_funnel_1788623256532",
+      "order_id": "order_test_1788623256532",
+      "customer_id": "cust_001",
+      "amount": 3499,
+      "currency": "INR",
+      "failure_bucket": "upi_timeout",
+      "failure_reason": "PSP timer expired during UPI handle verification",
+      "error_code": "BAD_REQUEST_TIMEOUT",
+      "status": "recovered",
+      "stage_reached": "payment_method_selected",
+      "created_at": "2026-09-05T15:47:36.532Z",
+      "updated_at": "2026-09-05T15:47:36.540Z",
+      "retry_payment_link": "https://rzp.io/i/test_funnel_1788623256533",
+      "recovery_attempts": [],
+      "funnel_stage": "recovered"
+    },
+    {
+      "id": "tx_test_funnel_1788623230821",
+      "order_id": "order_test_1788623230821",
+      "customer_id": "cust_001",
+      "amount": 3499,
+      "currency": "INR",
+      "failure_bucket": "upi_timeout",
+      "failure_reason": "PSP timer expired during UPI handle verification",
+      "error_code": "BAD_REQUEST_TIMEOUT",
+      "status": "not_economically_viable",
+      "stage_reached": "payment_method_selected",
+      "created_at": "2026-09-05T15:47:10.821Z",
+      "updated_at": "2026-09-05T15:48:44.552Z",
+      "retry_payment_link": "https://rzp.io/i/test_funnel_1788623230821",
+      "recovery_attempts": [
+        {
+          "attempt_number": 1,
+          "timestamp": "2026-09-05T15:47:10.821Z",
+          "channel": "whatsapp",
+          "template_name": "upi_timeout_urgent",
+          "message_sent": "Namaste! Please complete your payment here: https://rzp.io/i/test",
+          "outcome": "pending"
+        }
+      ],
+      "funnel_stage": "messaged",
+      "economic_evaluation": {
+        "expected_value": null,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": false,
+        "net_roi_ratio": null,
+        "decision_rationale": "Unit economics REJECTED: Expected value ₹NaN is BELOW the ₹2.55 economic hurdle (3x of ₹0.85 message cost). Skipped outreach to prevent negative merchant ROI and customer spam."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      }
+    },
+    {
+      "id": "tx_demo_late_captured",
+      "razorpay_payment_id": "pay_late_cap_99881",
+      "razorpay_order_id": "order_late_cap_001",
+      "amount": 1999,
+      "customer_id": "cust_0001",
+      "channel": "upi_app",
+      "failure_reason_raw": "UPI switch did not respond in time (delayed bank auth)",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 88,
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_latecap",
+      "created_at": "2026-09-05T15:10:04.196Z",
+      "updated_at": "2026-09-05T15:10:04.196Z"
+    },
+    {
+      "id": "tx_demo_normal_failed",
+      "razorpay_payment_id": "pay_norm_fail_11223",
+      "razorpay_order_id": "order_norm_fail_002",
+      "amount": 2499,
+      "customer_id": "cust_0001",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Bank gateway timeout during OTP authorization",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 82,
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_normfail",
+      "created_at": "2026-09-05T15:00:04.196Z",
+      "updated_at": "2026-09-05T15:00:04.196Z"
+    },
+    {
+      "id": "tx_dlt_test_1788609557895",
+      "razorpay_payment_id": "pay_dlt_test_001",
+      "amount": 1999,
+      "customer_id": "cust_dlt_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank NPCI gateway timeout",
+      "recoverability_score": 85,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_dlt_test_1788609557895",
+      "created_at": "2026-09-05T11:59:17.895Z",
+      "updated_at": "2026-09-05T11:59:18.506Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dlt_test_1788609557895_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 1699.15,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 1999,
+        "decision_rationale": "Unit economics PASS: Expected value ₹1699.15 (Score 85% of ₹1999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 1999x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "3 of 3 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_test_upi_1788609547266",
+      "razorpay_payment_id": "pay_upi_test_202",
+      "amount": 1999,
+      "customer_id": "cust_test_upi",
+      "channel": "checkout_web",
+      "failure_reason_raw": "NPCI PSP response timeout after 45000ms: UPI_SESSION_TIMED_OUT",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_upi_1788609547266",
+      "created_at": "2026-09-05T11:59:07.266Z",
+      "updated_at": "2026-09-05T11:59:08.018Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_test_upi_1788609547266_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 1819.09,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2140.1,
+        "decision_rationale": "Unit economics PASS: Expected value ₹1819.09 (Score 91% of ₹1999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2140.1x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "3 of 3 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_test_cart_1788609546195",
+      "razorpay_payment_id": "pay_cart_test_101",
+      "amount": 3200,
+      "customer_id": "cust_test_cart",
+      "channel": "checkout_web",
+      "failure_reason_raw": "User exited checkout drawer without selecting a payment instrument (idle 180s)",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 82,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_cart_1788609546195",
+      "created_at": "2026-09-05T11:59:06.195Z",
+      "updated_at": "2026-09-05T11:59:07.264Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_test_cart_1788609546195_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2624,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 3087.1,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2624.00 (Score 82% of ₹3200) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 3087.1x."
+      },
+      "remediation_strategy": {
+        "type": "cart_value_rescue",
+        "title": "Saved Cart Session Recovery",
+        "action_summary": "Send reassuring cart summary with direct checkout restoration link, avoiding payment failure language",
+        "channel_payload_type": "cart_incentive_summary",
+        "parameters": {
+          "alternate_instrument": "Preserved Cart Session Link"
+        },
+        "reasoning": "Customer voluntarily exited the checkout modal without attempting payment. A \"payment failed\" alert would be factually incorrect and erode customer trust. A transactional cart restoration link allows 1-tap checkout without re-filling details, complying with TRAI DLT transactional rules."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "3 of 3 checkouts failed with Cart Exit Without Payment"
+    },
+    {
+      "id": "tx_test_funds_1788609545332",
+      "razorpay_payment_id": "pay_funds_test_402",
+      "amount": 14999,
+      "customer_id": "cust_test_funds",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Kotak Bank: Available balance less than requested transaction amount ₹14,999",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 74,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_funds_1788609545332",
+      "created_at": "2026-09-05T11:59:05.332Z",
+      "updated_at": "2026-09-05T11:59:06.194Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_test_funds_1788609545332_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 11099.26,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 13058,
+        "decision_rationale": "Unit economics PASS: Expected value ₹11099.26 (Score 74% of ₹14999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 13058x."
+      },
+      "remediation_strategy": {
+        "type": "flexible_payment_split_emi",
+        "title": "Flexible Payment & EMI Options",
+        "action_summary": "Offer Razorpay payment link with Card EMI, PayLater, and alternate payment rails enabled",
+        "channel_payload_type": "emi_flexible_link",
+        "parameters": {
+          "enable_emi": true,
+          "alternate_instrument": "Card EMI / PayLater / Alternate Account"
+        },
+        "reasoning": "Account balance or daily debit limit was exceeded. Resending a direct debit retry will predictably fail again. Supplying flexible payment rails (Card EMI, PayLater, or alternate account) unlocks purchasing power."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "3 of 3 checkouts failed with Insufficient Account Funds / Limits"
+    },
+    {
+      "id": "tx_test_unviable_1788609545323",
+      "razorpay_payment_id": "pay_micro_test_99",
+      "amount": 15,
+      "customer_id": "cust_test_micro",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Bank switch busy or user cancelled low-value order",
+      "failure_bucket": "other",
+      "recoverability_score": 12,
+      "status": "not_economically_viable",
+      "retry_payment_link": "https://rzp.io/i/sim_micro",
+      "created_at": "2026-09-05T11:59:05.323Z",
+      "updated_at": "2026-09-05T12:39:41.540Z",
+      "economic_evaluation": {
+        "expected_value": 1.8,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": false,
+        "net_roi_ratio": 2.1,
+        "decision_rationale": "Unit economics REJECTED: Expected value ₹1.80 is BELOW the ₹2.55 economic hurdle (3x of ₹0.85 message cost). Skipped outreach to prevent negative merchant ROI and customer spam."
+      },
+      "remediation_strategy": {
+        "type": "general_recovery",
+        "title": "Multi-Rail Recovery Link",
+        "action_summary": "Generate secure multi-instrument Razorpay retry link",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "All Supported Instruments"
+        },
+        "reasoning": "Unclassified gateway anomaly. Providing a secure universal Razorpay payment link enables customer to pick their preferred recovery method."
+      }
+    },
+    {
+      "id": "tx_dblclick_1788606618131",
+      "razorpay_payment_id": "pay_dbl_1788606618131",
+      "amount": 2999,
+      "customer_id": "cust_idem_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank UPI switch failure",
+      "recoverability_score": 88,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_dblclick_1788606618131",
+      "created_at": "2026-09-05T11:10:18.131Z",
+      "updated_at": "2026-09-05T11:10:18.931Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dblclick_1788606618131_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2639.12,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 3104.8,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2639.12 (Score 88% of ₹2999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 3104.8x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "2 of 2 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_recon_1788606608308",
+      "razorpay_payment_id": "pay_orig_1788606608308",
+      "amount": 2499,
+      "customer_id": "cust_recon_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank NPCI gateway timeout on authorization",
+      "recoverability_score": 85,
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/sim_recon_1788606608308",
+      "created_at": "2026-09-05T11:10:08.308Z",
+      "updated_at": "2026-09-05T11:10:09.034Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_recon_1788606608308_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2124.15,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2499,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2124.15 (Score 85% of ₹2499) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2499x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "2 of 2 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_dlt_test_1788606601129",
+      "razorpay_payment_id": "pay_dlt_test_001",
+      "amount": 1999,
+      "customer_id": "cust_dlt_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank NPCI gateway timeout",
+      "recoverability_score": 85,
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/sim_dlt_test_1788606601129",
+      "created_at": "2026-09-05T11:10:01.129Z",
+      "updated_at": "2026-09-05T11:47:27.396Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dlt_test_1788606601129_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 1699.15,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 1999,
+        "decision_rationale": "Unit economics PASS: Expected value ₹1699.15 (Score 85% of ₹1999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 1999x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "2 of 2 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_dblclick_1788606082398",
+      "razorpay_payment_id": "pay_dbl_1788606082398",
+      "amount": 2999,
+      "customer_id": "cust_idem_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank UPI switch failure",
+      "recoverability_score": 88,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_dblclick_1788606082398",
+      "created_at": "2026-09-05T11:01:22.398Z",
+      "updated_at": "2026-09-05T11:01:23.087Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dblclick_1788606082398_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2639.12,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 3104.8,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2639.12 (Score 88% of ₹2999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 3104.8x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": false
+    },
+    {
+      "id": "tx_recon_1788606007594",
+      "razorpay_payment_id": "pay_orig_1788606007595",
+      "amount": 2499,
+      "customer_id": "cust_recon_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank NPCI gateway timeout on authorization",
+      "recoverability_score": 85,
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/sim_recon_1788606007594",
+      "created_at": "2026-09-05T11:00:07.595Z",
+      "updated_at": "2026-09-05T11:00:08.533Z",
+      "razorpay_payment_link_id": "plink_sim_1788606007602",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2124.15,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2499,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2124.15 (Score 85% of ₹2499) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2499x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": false
+    },
+    {
+      "id": "tx_dlt_test_1788605916817",
+      "razorpay_payment_id": "pay_dlt_test_001",
+      "amount": 1999,
+      "customer_id": "cust_dlt_test",
+      "channel": "checkout_web",
+      "failure_bucket": "upi_timeout",
+      "failure_reason_raw": "Bank NPCI gateway timeout",
+      "recoverability_score": 85,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_dlt_test_1788605916817",
+      "created_at": "2026-09-05T10:58:36.817Z",
+      "updated_at": "2026-09-05T10:58:37.592Z",
+      "razorpay_payment_link_id": "plink_sim_1788605916824",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 1699.15,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 1999,
+        "decision_rationale": "Unit economics PASS: Expected value ₹1699.15 (Score 85% of ₹1999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 1999x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": false
+    },
+    {
+      "id": "tx_test_upi_1788605268667",
+      "razorpay_payment_id": "pay_upi_test_202",
+      "amount": 1999,
+      "customer_id": "cust_test_upi",
+      "channel": "checkout_web",
+      "failure_reason_raw": "NPCI PSP response timeout after 45000ms: UPI_SESSION_TIMED_OUT",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_upi_1788605268667",
+      "created_at": "2026-09-05T10:47:48.667Z",
+      "updated_at": "2026-09-05T10:47:49.379Z",
+      "razorpay_payment_link_id": "plink_sim_1788605268674",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 1819.09,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2140.1,
+        "decision_rationale": "Unit economics PASS: Expected value ₹1819.09 (Score 91% of ₹1999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2140.1x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "2 of 2 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_test_cart_1788605268006",
+      "razorpay_payment_id": "pay_cart_test_101",
+      "amount": 3200,
+      "customer_id": "cust_test_cart",
+      "channel": "checkout_web",
+      "failure_reason_raw": "User exited checkout drawer without selecting a payment instrument (idle 180s)",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 82,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_cart_1788605268006",
+      "created_at": "2026-09-05T10:47:48.006Z",
+      "updated_at": "2026-09-05T10:47:48.664Z",
+      "razorpay_payment_link_id": "plink_sim_1788605268011",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2624,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 3087.1,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2624.00 (Score 82% of ₹3200) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 3087.1x."
+      },
+      "remediation_strategy": {
+        "type": "cart_value_rescue",
+        "title": "Saved Cart Session Recovery",
+        "action_summary": "Send reassuring cart summary with direct checkout restoration link, avoiding payment failure language",
+        "channel_payload_type": "cart_incentive_summary",
+        "parameters": {},
+        "reasoning": "Customer voluntarily exited the checkout modal without attempting payment. A \"payment failed\" alert would be factually incorrect and erode customer trust. A value reminder with an exclusive 5% completion coupon successfully rescues the cart."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "2 of 2 checkouts failed with Cart Exit Without Payment"
+    },
+    {
+      "id": "tx_test_funds_1788605267340",
+      "razorpay_payment_id": "pay_funds_test_402",
+      "amount": 14999,
+      "customer_id": "cust_test_funds",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Kotak Bank: Available balance less than requested transaction amount ₹14,999",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 74,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_funds_1788605267340",
+      "created_at": "2026-09-05T10:47:47.340Z",
+      "updated_at": "2026-09-05T10:47:48.005Z",
+      "razorpay_payment_link_id": "plink_sim_1788605267344",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 11099.26,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 13058,
+        "decision_rationale": "Unit economics PASS: Expected value ₹11099.26 (Score 74% of ₹14999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 13058x."
+      },
+      "remediation_strategy": {
+        "type": "flexible_payment_split_emi",
+        "title": "Flexible Payment & EMI Options",
+        "action_summary": "Offer Razorpay payment link with Card EMI, PayLater, and alternate payment rails enabled",
+        "channel_payload_type": "emi_flexible_link",
+        "parameters": {
+          "enable_emi": true,
+          "alternate_instrument": "Card EMI / PayLater / Alternate Account"
+        },
+        "reasoning": "Account balance or daily debit limit was exceeded. Resending a direct debit retry will predictably fail again. Supplying flexible payment rails (Card EMI, PayLater, or alternate account) unlocks purchasing power."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "2 of 2 checkouts failed with Insufficient Account Funds / Limits"
+    },
+    {
+      "id": "tx_test_unviable_1788605267331",
+      "razorpay_payment_id": "pay_micro_test_99",
+      "amount": 15,
+      "customer_id": "cust_test_micro",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Bank switch busy or user cancelled low-value order",
+      "failure_bucket": "other",
+      "recoverability_score": 12,
+      "status": "not_economically_viable",
+      "retry_payment_link": "https://rzp.io/i/sim_micro",
+      "created_at": "2026-09-05T10:47:47.331Z",
+      "updated_at": "2026-09-05T10:47:47.339Z",
+      "economic_evaluation": {
+        "expected_value": 1.8,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": false,
+        "net_roi_ratio": 2.1,
+        "decision_rationale": "Unit economics REJECTED: Expected value ₹1.80 is BELOW the ₹2.55 economic hurdle (3x of ₹0.85 message cost). Skipped outreach to prevent negative merchant ROI and customer spam."
+      },
+      "remediation_strategy": {
+        "type": "general_recovery",
+        "title": "Multi-Rail Recovery Link",
+        "action_summary": "Generate secure multi-instrument Razorpay retry link",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "All Supported Instruments"
+        },
+        "reasoning": "Unclassified gateway anomaly. Providing a secure universal Razorpay payment link enables customer to pick their preferred recovery method."
+      }
+    },
+    {
+      "id": "tx_test_upi_1788603742343",
+      "razorpay_payment_id": "pay_upi_test_202",
+      "amount": 1999,
+      "customer_id": "cust_test_upi",
+      "channel": "checkout_web",
+      "failure_reason_raw": "NPCI PSP response timeout after 45000ms: UPI_SESSION_TIMED_OUT",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_upi_1788603742343",
+      "created_at": "2026-09-05T10:22:22.343Z",
+      "updated_at": "2026-09-05T10:22:22.922Z",
+      "razorpay_payment_link_id": "plink_sim_1788603742351",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 1819.09,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2140.1,
+        "decision_rationale": "Unit economics PASS: Expected value ₹1819.09 (Score 91% of ₹1999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2140.1x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      }
+    },
+    {
+      "id": "tx_test_cart_1788603741828",
+      "razorpay_payment_id": "pay_cart_test_101",
+      "amount": 3200,
+      "customer_id": "cust_test_cart",
+      "channel": "checkout_web",
+      "failure_reason_raw": "User exited checkout drawer without selecting a payment instrument (idle 180s)",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 82,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_cart_1788603741828",
+      "created_at": "2026-09-05T10:22:21.828Z",
+      "updated_at": "2026-09-05T10:22:22.340Z",
+      "razorpay_payment_link_id": "plink_sim_1788603741832",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 2624,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 3087.1,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2624.00 (Score 82% of ₹3200) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 3087.1x."
+      },
+      "remediation_strategy": {
+        "type": "cart_value_rescue",
+        "title": "Saved Cart Session Recovery",
+        "action_summary": "Send reassuring cart summary with direct checkout restoration link, avoiding payment failure language",
+        "channel_payload_type": "cart_incentive_summary",
+        "parameters": {},
+        "reasoning": "Customer voluntarily exited the checkout modal without attempting payment. A \"payment failed\" alert would be factually incorrect and erode customer trust. A value reminder with an exclusive 5% completion coupon successfully rescues the cart."
+      }
+    },
+    {
+      "id": "tx_test_funds_1788603741210",
+      "razorpay_payment_id": "pay_funds_test_402",
+      "amount": 14999,
+      "customer_id": "cust_test_funds",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Kotak Bank: Available balance less than requested transaction amount ₹14,999",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 74,
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_test_funds_1788603741210",
+      "created_at": "2026-09-05T10:22:21.210Z",
+      "updated_at": "2026-09-05T10:22:21.826Z",
+      "razorpay_payment_link_id": "plink_sim_1788603741213",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 11099.26,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 13058,
+        "decision_rationale": "Unit economics PASS: Expected value ₹11099.26 (Score 74% of ₹14999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 13058x."
+      },
+      "remediation_strategy": {
+        "type": "flexible_payment_split_emi",
+        "title": "Flexible Payment & EMI Options",
+        "action_summary": "Offer Razorpay payment link with Card EMI, PayLater, and alternate payment rails enabled",
+        "channel_payload_type": "emi_flexible_link",
+        "parameters": {
+          "enable_emi": true,
+          "alternate_instrument": "Card EMI / PayLater / Alternate Account"
+        },
+        "reasoning": "Account balance or daily debit limit was exceeded. Resending a direct debit retry will predictably fail again. Supplying flexible payment rails (Card EMI, PayLater, or alternate account) unlocks purchasing power."
+      }
+    },
+    {
+      "id": "tx_test_unviable_1788603741201",
+      "razorpay_payment_id": "pay_micro_test_99",
+      "amount": 15,
+      "customer_id": "cust_test_micro",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Bank switch busy or user cancelled low-value order",
+      "failure_bucket": "other",
+      "recoverability_score": 12,
+      "status": "not_economically_viable",
+      "retry_payment_link": "https://rzp.io/i/sim_micro",
+      "created_at": "2026-09-05T10:22:21.201Z",
+      "updated_at": "2026-09-05T10:22:21.209Z",
+      "economic_evaluation": {
+        "expected_value": 1.8,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": false,
+        "net_roi_ratio": 2.1,
+        "decision_rationale": "Unit economics REJECTED: Expected value ₹1.80 is BELOW the ₹2.55 economic hurdle (3x of ₹0.85 message cost). Skipped outreach to prevent negative merchant ROI and customer spam."
+      },
+      "remediation_strategy": {
+        "type": "general_recovery",
+        "title": "Multi-Rail Recovery Link",
+        "action_summary": "Generate secure multi-instrument Razorpay retry link",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "All Supported Instruments"
+        },
+        "reasoning": "Unclassified gateway anomaly. Providing a secure universal Razorpay payment link enables customer to pick their preferred recovery method."
+      }
+    },
+    {
+      "id": "tx_1788603111141",
+      "razorpay_payment_id": "pay_test_1788603111083",
+      "razorpay_order_id": "order_test_1788603111083",
+      "razorpay_payment_link_id": "plink_sim_1788603111234",
+      "is_live_razorpay": false,
+      "amount": 2599,
+      "customer_id": "cust_1788602919767",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Beneficiary bank server down or not responding during MPIN authorization",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 93,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 5,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 93,
+        "rationale": [
+          "Root cause bucket 'upi_timeout' establishes base recoverability of 88/100.",
+          "Moderate ticket size (₹2599) has high recovery conversion (+5 pts).",
+          "Customer has no adverse recovery history (0 pts).",
+          "Fresh failure event within active recovery golden window (0 pts decay)."
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_1788603111141",
+      "created_at": "2026-09-05T10:11:51.141Z",
+      "updated_at": "2026-09-05T10:11:51.797Z"
+    },
+    {
+      "id": "tx_1788603082674",
+      "razorpay_payment_id": "pay_test_1788603082599",
+      "razorpay_order_id": "order_test_1788603082599",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_1788603082674_att_1",
+      "is_live_razorpay": false,
+      "amount": 2599,
+      "customer_id": "cust_1788602919767",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Beneficiary bank server down or not responding during MPIN authorization",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 93,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 5,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 93,
+        "rationale": [
+          "Root cause bucket 'upi_timeout' establishes base recoverability of 88/100.",
+          "Moderate ticket size (₹2599) has high recovery conversion (+5 pts).",
+          "Customer has no adverse recovery history (0 pts).",
+          "Fresh failure event within active recovery golden window (0 pts decay)."
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_1788603082674",
+      "created_at": "2026-09-05T10:11:22.675Z",
+      "updated_at": "2026-09-05T11:12:39.845Z",
+      "economic_evaluation": {
+        "expected_value": 2417.07,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2843.6,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2417.07 (Score 93% of ₹2599) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2843.6x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "3 of 3 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_1788602919770",
+      "razorpay_payment_id": "pay_test_1788602919712",
+      "razorpay_order_id": "order_test_1788602919712",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_1788602919770_att_1",
+      "is_live_razorpay": false,
+      "amount": 2599,
+      "customer_id": "cust_1788602919767",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Beneficiary bank server down or not responding during MPIN authorization",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 93,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 5,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 93,
+        "rationale": [
+          "Root cause bucket 'upi_timeout' establishes base recoverability of 88/100.",
+          "Moderate ticket size (₹2599) has high recovery conversion (+5 pts).",
+          "Customer has no adverse recovery history (0 pts).",
+          "Fresh failure event within active recovery golden window (0 pts decay)."
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_1788602919770",
+      "created_at": "2026-09-05T10:08:39.770Z",
+      "updated_at": "2026-09-05T11:12:36.114Z",
+      "economic_evaluation": {
+        "expected_value": 2417.07,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 2843.6,
+        "decision_rationale": "Unit economics PASS: Expected value ₹2417.07 (Score 93% of ₹2599) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 2843.6x."
+      },
+      "remediation_strategy": {
+        "type": "transient_network_retry",
+        "title": "Transient Gateway Retry",
+        "action_summary": "Generate direct 1-click UPI retry link with intent payload",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "Direct UPI Instant Retry"
+        },
+        "reasoning": "Failure caused by transient NPCI/PSP switch timeout. Customer intent and bank balance remain valid; direct one-tap retry on the same instrument has an 82% recovery conversion rate."
+      },
+      "has_recurring_failure": true,
+      "recurring_pattern_summary": "3 of 3 checkouts failed with UPI Network Timeout"
+    },
+    {
+      "id": "tx_0001",
+      "razorpay_payment_id": "pay_5X22PJI0R",
+      "razorpay_order_id": "order_7kfpx9eu",
+      "amount": 499,
+      "customer_id": "cust_0001",
+      "channel": "payment_link",
+      "failure_reason_raw": "Google Pay UPI authorization timed out on user device",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 98,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 8,
+        "history_adjustment": 12,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 98,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹499 has low friction (+8 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_5x22pj",
+      "created_at": "2026-09-05T04:44:57.227Z",
+      "updated_at": "2026-09-05T04:44:57.227Z"
+    },
+    {
+      "id": "tx_0002",
+      "razorpay_payment_id": "pay_BL2O32GXP",
+      "razorpay_order_id": "order_vhqza63k",
+      "amount": 3499,
+      "customer_id": "cust_0002",
+      "channel": "upi_app",
+      "failure_reason_raw": "PhonePe callback not received within 60 seconds of intent invocation",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 91,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹3499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_bl2o32",
+      "created_at": "2026-09-05T05:44:57.227Z",
+      "updated_at": "2026-09-05T05:44:57.227Z"
+    },
+    {
+      "id": "tx_0003",
+      "razorpay_payment_id": "pay_Q1XJ5R91K",
+      "razorpay_order_id": "order_yeuq1ls3",
+      "amount": 499,
+      "customer_id": "cust_0003",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Bank UPI switch busy: U30 error code from NPCI gateway",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 96,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 8,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 96,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹499 has low friction (+8 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_q1xj5r",
+      "created_at": "2026-09-03T19:44:57.227Z",
+      "updated_at": "2026-09-03T19:44:57.227Z"
+    },
+    {
+      "id": "tx_0004",
+      "razorpay_payment_id": "pay_V8I1UMPY6",
+      "razorpay_order_id": "order_44zquaw5",
+      "amount": 1999,
+      "customer_id": "cust_0004",
+      "channel": "upi_app",
+      "failure_reason_raw": "PhonePe callback not received within 60 seconds of intent invocation",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 91,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹1999 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_v8i1um",
+      "created_at": "2026-09-05T07:44:57.227Z",
+      "updated_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "tx_0005",
+      "razorpay_payment_id": "pay_CTTVUX146",
+      "razorpay_order_id": "order_d6ejb2y2",
+      "amount": 2499,
+      "customer_id": "cust_0005",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Google Pay UPI authorization timed out on user device",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 98,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 3,
+        "history_adjustment": 12,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 98,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹2499 has low friction (+3 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_cttvux",
+      "created_at": "2026-09-03T05:44:57.227Z",
+      "updated_at": "2026-09-03T05:44:57.227Z"
+    },
+    {
+      "id": "tx_0006",
+      "razorpay_payment_id": "pay_GRCIH9VC6",
+      "razorpay_order_id": "order_05zm25yz",
+      "amount": 499,
+      "customer_id": "cust_0006",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "PhonePe callback not received within 60 seconds of intent invocation",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 96,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 8,
+        "history_adjustment": 0,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 96,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹499 has low friction (+8 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_grcih9",
+      "created_at": "2026-09-02T14:44:57.227Z",
+      "updated_at": "2026-09-02T14:44:57.227Z"
+    },
+    {
+      "id": "tx_0007",
+      "razorpay_payment_id": "pay_YE0N9DG4F",
+      "razorpay_order_id": "order_w2rmyqj3",
+      "amount": 2499,
+      "customer_id": "cust_0007",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Bank UPI switch busy: U30 error code from NPCI gateway",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 91,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹2499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_ye0n9d",
+      "created_at": "2026-09-03T21:44:57.227Z",
+      "updated_at": "2026-09-03T21:44:57.227Z"
+    },
+    {
+      "id": "tx_0008",
+      "razorpay_payment_id": "pay_OUA65L0YO",
+      "razorpay_order_id": "order_0o28fgdg",
+      "amount": 3499,
+      "customer_id": "cust_0008",
+      "channel": "upi_app",
+      "failure_reason_raw": "Bank UPI switch busy: U30 error code from NPCI gateway",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 91,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹3499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_oua65l",
+      "created_at": "2026-09-05T07:44:57.227Z",
+      "updated_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "tx_0009",
+      "razorpay_payment_id": "pay_86KONFGNI",
+      "razorpay_order_id": "order_bxepzis9",
+      "amount": 1499,
+      "customer_id": "cust_0009",
+      "channel": "upi_app",
+      "failure_reason_raw": "NPCI PSP response timeout after 45000ms: UPI_SESSION_TIMED_OUT",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 98,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 8,
+        "history_adjustment": 12,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 98,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹1499 has low friction (+8 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_86konf",
+      "created_at": "2026-09-02T11:44:57.227Z",
+      "updated_at": "2026-09-02T11:44:57.227Z"
+    },
+    {
+      "id": "tx_0010",
+      "razorpay_payment_id": "pay_KKI109E0R",
+      "razorpay_order_id": "order_dvn3t0vz",
+      "amount": 499,
+      "customer_id": "cust_0010",
+      "channel": "payment_link",
+      "failure_reason_raw": "PhonePe callback not received within 60 seconds of intent invocation",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 96,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 8,
+        "history_adjustment": 0,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 96,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹499 has low friction (+8 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_kki109",
+      "created_at": "2026-09-02T20:44:57.227Z",
+      "updated_at": "2026-09-02T20:44:57.227Z"
+    },
+    {
+      "id": "tx_0011",
+      "razorpay_payment_id": "pay_A3B6QXNL2",
+      "razorpay_order_id": "order_c7ago8zk",
+      "amount": 6999,
+      "customer_id": "cust_0011",
+      "channel": "upi_app",
+      "failure_reason_raw": "PhonePe callback not received within 60 seconds of intent invocation",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 88,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 88,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹6999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_a3b6qx",
+      "created_at": "2026-09-04T06:44:57.227Z",
+      "updated_at": "2026-09-04T06:44:57.227Z"
+    },
+    {
+      "id": "tx_0012",
+      "razorpay_payment_id": "pay_JX9RE0BWJ",
+      "razorpay_order_id": "order_9ttf558o",
+      "amount": 2499,
+      "customer_id": "cust_0012",
+      "channel": "payment_link",
+      "failure_reason_raw": "Bank UPI switch busy: U30 error code from NPCI gateway",
+      "failure_bucket": "upi_timeout",
+      "recoverability_score": 91,
+      "score_breakdown": {
+        "base_bucket_score": 88,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 91,
+        "rationale": [
+          "Root cause 'upi_timeout' carries base recoverability index of 88/100",
+          "Transaction ticket ₹2499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_jx9re0",
+      "created_at": "2026-09-03T01:44:57.227Z",
+      "updated_at": "2026-09-03T01:44:57.227Z"
+    },
+    {
+      "id": "tx_0013",
+      "razorpay_payment_id": "pay_2UP6BZU0J",
+      "razorpay_order_id": "order_7k38z2ic",
+      "amount": 1899,
+      "customer_id": "cust_0013",
+      "channel": "upi_app",
+      "failure_reason_raw": "Mobile browser closed during gateway redirect (WebKit WebView drop)",
+      "failure_bucket": "network_error",
+      "recoverability_score": 98,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 3,
+        "history_adjustment": 12,
+        "time_decay_penalty": 1,
+        "channel_factor": 1,
+        "final_score": 98,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹1899 has low friction (+3 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_2up6bz",
+      "created_at": "2026-09-04T19:44:57.227Z",
+      "updated_at": "2026-09-04T19:44:57.227Z"
+    },
+    {
+      "id": "tx_0014",
+      "razorpay_payment_id": "pay_3ECNNJWSA",
+      "razorpay_order_id": "order_oodp1zmt",
+      "amount": 699,
+      "customer_id": "cust_0014",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Network timeout: gateway response packet lost mid-flight",
+      "failure_bucket": "network_error",
+      "recoverability_score": 92,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 8,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 92,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹699 has low friction (+8 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_3ecnnj",
+      "created_at": "2026-09-03T10:44:57.227Z",
+      "updated_at": "2026-09-03T10:44:57.227Z"
+    },
+    {
+      "id": "tx_0015",
+      "razorpay_payment_id": "pay_9E2JRHJ5A",
+      "razorpay_order_id": "order_wsdv33mo",
+      "amount": 2999,
+      "customer_id": "cust_0015",
+      "channel": "upi_app",
+      "failure_reason_raw": "Socket hangup during Razorpay 3DS redirection handshake",
+      "failure_bucket": "network_error",
+      "recoverability_score": 87,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 87,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹2999 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_9e2jrh",
+      "created_at": "2026-09-03T06:44:57.227Z",
+      "updated_at": "2026-09-03T06:44:57.227Z"
+    },
+    {
+      "id": "tx_0016",
+      "razorpay_payment_id": "pay_TRHUGK9M2",
+      "razorpay_order_id": "order_80twquw0",
+      "amount": 699,
+      "customer_id": "cust_0016",
+      "channel": "payment_link",
+      "failure_reason_raw": "Socket hangup during Razorpay 3DS redirection handshake",
+      "failure_bucket": "network_error",
+      "recoverability_score": 92,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 8,
+        "history_adjustment": 0,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 92,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹699 has low friction (+8 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_trhugk",
+      "created_at": "2026-09-02T12:44:57.227Z",
+      "updated_at": "2026-09-02T12:44:57.227Z"
+    },
+    {
+      "id": "tx_0017",
+      "razorpay_payment_id": "pay_UK6T4CO1J",
+      "razorpay_order_id": "order_9vlpzgf8",
+      "amount": 1199,
+      "customer_id": "cust_0017",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Socket hangup during Razorpay 3DS redirection handshake",
+      "failure_bucket": "network_error",
+      "recoverability_score": 98,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 8,
+        "history_adjustment": 12,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 98,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹1199 has low friction (+8 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/sim_0017",
+      "created_at": "2026-09-05T04:44:57.227Z",
+      "updated_at": "2026-09-05T10:16:37.264Z",
+      "razorpay_payment_link_id": "plink_sim_1788603363145",
+      "is_live_razorpay": false
+    },
+    {
+      "id": "tx_0018",
+      "razorpay_payment_id": "pay_TL2D77ZE4",
+      "razorpay_order_id": "order_xn1prec0",
+      "amount": 4500,
+      "customer_id": "cust_0018",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "DNS resolution failure on customer 4G network connection",
+      "failure_bucket": "network_error",
+      "recoverability_score": 87,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 87,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹4500 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_tl2d77",
+      "created_at": "2026-09-03T23:44:57.227Z",
+      "updated_at": "2026-09-03T23:44:57.227Z"
+    },
+    {
+      "id": "tx_0019",
+      "razorpay_payment_id": "pay_RE94XVVCD",
+      "razorpay_order_id": "order_shcq47vs",
+      "amount": 4500,
+      "customer_id": "cust_0019",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Client connection reset: net::ERR_CONNECTION_RESET during redirect to gateway",
+      "failure_bucket": "network_error",
+      "recoverability_score": 87,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 87,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹4500 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_re94xv",
+      "created_at": "2026-09-03T01:44:57.227Z",
+      "updated_at": "2026-09-03T01:44:57.227Z"
+    },
+    {
+      "id": "tx_0020",
+      "razorpay_payment_id": "pay_IVULRJCV0",
+      "razorpay_order_id": "order_8qqxostw",
+      "amount": 1199,
+      "customer_id": "cust_0020",
+      "channel": "payment_link",
+      "failure_reason_raw": "DNS resolution failure on customer 4G network connection",
+      "failure_bucket": "network_error",
+      "recoverability_score": 92,
+      "score_breakdown": {
+        "base_bucket_score": 84,
+        "amount_adjustment": 8,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 92,
+        "rationale": [
+          "Root cause 'network_error' carries base recoverability index of 84/100",
+          "Transaction ticket ₹1199 has low friction (+8 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_ivulrj",
+      "created_at": "2026-09-03T14:44:57.227Z",
+      "updated_at": "2026-09-03T14:44:57.227Z"
+    },
+    {
+      "id": "tx_0021",
+      "razorpay_payment_id": "pay_81QFW3BOI",
+      "razorpay_order_id": "order_wpj21v3s",
+      "amount": 8999,
+      "customer_id": "cust_0021",
+      "channel": "payment_link",
+      "failure_reason_raw": "Customer abandoned session after promo code validation check",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 84,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 0,
+        "history_adjustment": 12,
+        "time_decay_penalty": 1,
+        "channel_factor": 1,
+        "final_score": 84,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹8999 has low friction (+0 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_81qfw3",
+      "created_at": "2026-09-04T20:44:57.227Z",
+      "updated_at": "2026-09-04T20:44:57.227Z"
+    },
+    {
+      "id": "tx_0022",
+      "razorpay_payment_id": "pay_DYZKDKTC2",
+      "razorpay_order_id": "order_3loqiz46",
+      "amount": 8999,
+      "customer_id": "cust_0022",
+      "channel": "payment_link",
+      "failure_reason_raw": "User exited checkout drawer without selecting a payment instrument (idle 180s)",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 72,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 72,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹8999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_0022",
+      "created_at": "2026-09-05T04:44:57.227Z",
+      "updated_at": "2026-09-05T11:38:46.328Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_0022_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 6479.28,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 7622.7,
+        "decision_rationale": "Unit economics PASS: Expected value ₹6479.28 (Score 72% of ₹8999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 7622.7x."
+      },
+      "remediation_strategy": {
+        "type": "cart_value_rescue",
+        "title": "Saved Cart Session Recovery",
+        "action_summary": "Send reassuring cart summary with direct checkout restoration link, avoiding payment failure language",
+        "channel_payload_type": "cart_incentive_summary",
+        "parameters": {
+          "alternate_instrument": "Preserved Cart Session Link"
+        },
+        "reasoning": "Customer voluntarily exited the checkout modal without attempting payment. A \"payment failed\" alert would be factually incorrect and erode customer trust. A transactional cart restoration link allows 1-tap checkout without re-filling details, complying with TRAI DLT transactional rules."
+      },
+      "has_recurring_failure": false
+    },
+    {
+      "id": "tx_0023",
+      "razorpay_payment_id": "pay_5M5PROC5S",
+      "razorpay_order_id": "order_uw0ib7wy",
+      "amount": 2499,
+      "customer_id": "cust_0023",
+      "channel": "upi_app",
+      "failure_reason_raw": "Checkout sheet closed on mobile browser after selecting netbanking tab",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 75,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 75,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹2499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_5m5pro",
+      "created_at": "2026-09-03T21:44:57.227Z",
+      "updated_at": "2026-09-03T21:44:57.227Z"
+    },
+    {
+      "id": "tx_0024",
+      "razorpay_payment_id": "pay_RE8ZF2YSR",
+      "razorpay_order_id": "order_wos5ghob",
+      "amount": 8999,
+      "customer_id": "cust_0024",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "User exited checkout drawer without selecting a payment instrument (idle 180s)",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 72,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 72,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹8999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_re8zf2",
+      "created_at": "2026-09-03T08:44:57.227Z",
+      "updated_at": "2026-09-03T08:44:57.227Z"
+    },
+    {
+      "id": "tx_0025",
+      "razorpay_payment_id": "pay_58QQ3SZRW",
+      "razorpay_order_id": "order_rycmofos",
+      "amount": 3999,
+      "customer_id": "cust_0025",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Modal dismissed by customer at payment method selection step",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 87,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 3,
+        "history_adjustment": 12,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 87,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹3999 has low friction (+3 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_0025",
+      "created_at": "2026-09-05T01:44:57.227Z",
+      "updated_at": "2026-09-05T10:19:13.422Z",
+      "razorpay_payment_link_id": "plink_sim_1788603552908",
+      "is_live_razorpay": false
+    },
+    {
+      "id": "tx_0026",
+      "razorpay_payment_id": "pay_XZT06GFUR",
+      "razorpay_order_id": "order_udp9y9wt",
+      "amount": 2499,
+      "customer_id": "cust_0026",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "User navigated back to cart from Razorpay checkout modal",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 75,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 75,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹2499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_xzt06g",
+      "created_at": "2026-09-02T12:44:57.227Z",
+      "updated_at": "2026-09-02T12:44:57.227Z"
+    },
+    {
+      "id": "tx_0027",
+      "razorpay_payment_id": "pay_40EW6X7VP",
+      "razorpay_order_id": "order_3pxr2phz",
+      "amount": 5499,
+      "customer_id": "cust_0027",
+      "channel": "payment_link",
+      "failure_reason_raw": "User exited checkout drawer without selecting a payment instrument (idle 180s)",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 72,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 1,
+        "channel_factor": 1,
+        "final_score": 72,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹5499 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_0027",
+      "created_at": "2026-09-04T17:44:57.227Z",
+      "updated_at": "2026-09-05T11:51:50.164Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_0027_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 3959.28,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 4658,
+        "decision_rationale": "Unit economics PASS: Expected value ₹3959.28 (Score 72% of ₹5499) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 4658x."
+      },
+      "remediation_strategy": {
+        "type": "cart_value_rescue",
+        "title": "Saved Cart Session Recovery",
+        "action_summary": "Send reassuring cart summary with direct checkout restoration link, avoiding payment failure language",
+        "channel_payload_type": "cart_incentive_summary",
+        "parameters": {
+          "alternate_instrument": "Preserved Cart Session Link"
+        },
+        "reasoning": "Customer voluntarily exited the checkout modal without attempting payment. A \"payment failed\" alert would be factually incorrect and erode customer trust. A transactional cart restoration link allows 1-tap checkout without re-filling details, complying with TRAI DLT transactional rules."
+      },
+      "has_recurring_failure": false
+    },
+    {
+      "id": "tx_0028",
+      "razorpay_payment_id": "pay_ICK1SAC34",
+      "razorpay_order_id": "order_bz72lou1",
+      "amount": 5499,
+      "customer_id": "cust_0028",
+      "channel": "payment_link",
+      "failure_reason_raw": "Customer abandoned session after promo code validation check",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 72,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 72,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹5499 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_ick1sa",
+      "created_at": "2026-09-05T04:44:57.227Z",
+      "updated_at": "2026-09-05T11:41:21.771Z"
+    },
+    {
+      "id": "tx_0029",
+      "razorpay_payment_id": "pay_JQYI8Z2B6",
+      "razorpay_order_id": "order_i12r7k00",
+      "amount": 5499,
+      "customer_id": "cust_0029",
+      "channel": "payment_link",
+      "failure_reason_raw": "Modal dismissed by customer at payment method selection step",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 84,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 0,
+        "history_adjustment": 12,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 84,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹5499 has low friction (+0 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_jqyi8z",
+      "created_at": "2026-09-03T16:44:57.227Z",
+      "updated_at": "2026-09-03T16:44:57.227Z"
+    },
+    {
+      "id": "tx_0030",
+      "razorpay_payment_id": "pay_TA87VDIOJ",
+      "razorpay_order_id": "order_fr4wvilt",
+      "amount": 2499,
+      "customer_id": "cust_0030",
+      "channel": "upi_app",
+      "failure_reason_raw": "Modal dismissed by customer at payment method selection step",
+      "failure_bucket": "cart_abandon",
+      "recoverability_score": 75,
+      "score_breakdown": {
+        "base_bucket_score": 72,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 75,
+        "rationale": [
+          "Root cause 'cart_abandon' carries base recoverability index of 72/100",
+          "Transaction ticket ₹2499 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "failed",
+      "retry_payment_link": "https://rzp.io/i/rec_ta87vd",
+      "created_at": "2026-09-03T04:44:57.227Z",
+      "updated_at": "2026-09-03T04:44:57.227Z"
+    },
+    {
+      "id": "tx_0031",
+      "razorpay_payment_id": "pay_YUEFPUIL8",
+      "razorpay_order_id": "order_6bw8m6bu",
+      "amount": 18500,
+      "customer_id": "cust_0031",
+      "channel": "upi_app",
+      "failure_reason_raw": "Axis Bank Card Gateway: Issuer security filter blocked high-value online transaction",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 58,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 58,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "Transaction ticket ₹18500 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_yuefpu",
+      "created_at": "2026-09-04T03:44:57.227Z",
+      "updated_at": "2026-09-04T03:44:57.227Z"
+    },
+    {
+      "id": "tx_0032",
+      "razorpay_payment_id": "pay_GMNLL5DK7",
+      "razorpay_order_id": "order_nl3n95c8",
+      "amount": 38000,
+      "customer_id": "cust_0032",
+      "channel": "upi_app",
+      "failure_reason_raw": "Card declined by HDFC Bank: Incorrect CVV2 entered 3 times",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 46,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": -12,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 46,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "High ticket size ₹38000 requires higher buyer intent (-12 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_gmnll5",
+      "created_at": "2026-09-03T21:44:57.227Z",
+      "updated_at": "2026-09-03T21:44:57.227Z"
+    },
+    {
+      "id": "tx_0033",
+      "razorpay_payment_id": "pay_Q4F5I7UMS",
+      "razorpay_order_id": "order_g5neo73y",
+      "amount": 12000,
+      "customer_id": "cust_0033",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Card declined by HDFC Bank: Incorrect CVV2 entered 3 times",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 70,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": 0,
+        "history_adjustment": 12,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 70,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "Transaction ticket ₹12000 has low friction (+0 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_q4f5i7",
+      "created_at": "2026-09-04T02:44:57.227Z",
+      "updated_at": "2026-09-04T02:44:57.227Z"
+    },
+    {
+      "id": "tx_0034",
+      "razorpay_payment_id": "pay_TPX8RP51K",
+      "razorpay_order_id": "order_wxncfsin",
+      "amount": 12000,
+      "customer_id": "cust_0034",
+      "channel": "upi_app",
+      "failure_reason_raw": "Card declined by HDFC Bank: Incorrect CVV2 entered 3 times",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 58,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 58,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "Transaction ticket ₹12000 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_tpx8rp",
+      "created_at": "2026-09-02T11:44:57.227Z",
+      "updated_at": "2026-09-02T11:44:57.227Z"
+    },
+    {
+      "id": "tx_0035",
+      "razorpay_payment_id": "pay_PTRY8A8V8",
+      "razorpay_order_id": "order_xwiijg5k",
+      "amount": 24999,
+      "customer_id": "cust_0035",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Card declined by HDFC Bank: Incorrect CVV2 entered 3 times",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 46,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": -12,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 46,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "High ticket size ₹24999 requires higher buyer intent (-12 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_ptry8a",
+      "created_at": "2026-09-04T04:44:57.227Z",
+      "updated_at": "2026-09-04T04:44:57.227Z"
+    },
+    {
+      "id": "tx_0036",
+      "razorpay_payment_id": "pay_NHWKYKM9V",
+      "razorpay_order_id": "order_hz9qijcb",
+      "amount": 38000,
+      "customer_id": "cust_0036",
+      "channel": "upi_app",
+      "failure_reason_raw": "Card declined by HDFC Bank: Incorrect CVV2 entered 3 times",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 46,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": -12,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 46,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "High ticket size ₹38000 requires higher buyer intent (-12 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_nhwkyk",
+      "created_at": "2026-09-04T08:44:57.227Z",
+      "updated_at": "2026-09-04T08:44:57.227Z"
+    },
+    {
+      "id": "tx_0037",
+      "razorpay_payment_id": "pay_KOVKHS6V0",
+      "razorpay_order_id": "order_tx6z8fas",
+      "amount": 24999,
+      "customer_id": "cust_0037",
+      "channel": "upi_app",
+      "failure_reason_raw": "Issuer bank declined transaction: 3DS OTP verification failed/timeout",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 58,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": -12,
+        "history_adjustment": 12,
+        "time_decay_penalty": 1,
+        "channel_factor": 1,
+        "final_score": 58,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "High ticket size ₹24999 requires higher buyer intent (-12 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_kovkhs",
+      "created_at": "2026-09-04T18:44:57.227Z",
+      "updated_at": "2026-09-04T18:44:57.227Z"
+    },
+    {
+      "id": "tx_0038",
+      "razorpay_payment_id": "pay_GRIEQW3I8",
+      "razorpay_order_id": "order_jon5d5oq",
+      "amount": 6500,
+      "customer_id": "cust_0038",
+      "channel": "payment_link",
+      "failure_reason_raw": "Axis Bank Card Gateway: Issuer security filter blocked high-value online transaction",
+      "failure_bucket": "card_decline",
+      "recoverability_score": 58,
+      "score_breakdown": {
+        "base_bucket_score": 58,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 58,
+        "rationale": [
+          "Root cause 'card_decline' carries base recoverability index of 58/100",
+          "Transaction ticket ₹6500 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/rec_grieqw",
+      "created_at": "2026-09-03T13:44:57.227Z",
+      "updated_at": "2026-09-03T13:44:57.227Z"
+    },
+    {
+      "id": "tx_0039",
+      "razorpay_payment_id": "pay_RVK2WMZSW",
+      "razorpay_order_id": "order_j32q7sqh",
+      "amount": 8999,
+      "customer_id": "cust_0039",
+      "channel": "payment_link",
+      "failure_reason_raw": "Account overdraft limit reached: transaction declined by Federal Bank",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 44,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 44,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "Transaction ticket ₹8999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "escalated_human_review",
+      "retry_payment_link": "https://rzp.io/i/rec_rvk2wm",
+      "created_at": "2026-09-04T07:44:57.227Z",
+      "updated_at": "2026-09-04T07:44:57.227Z"
+    },
+    {
+      "id": "tx_0040",
+      "razorpay_payment_id": "pay_46ZZB97DP",
+      "razorpay_order_id": "order_p6r3r7mx",
+      "amount": 14999,
+      "customer_id": "cust_0040",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Credit card declined: Exceeds assigned credit limit on card ending 4092",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 44,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 44,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "Transaction ticket ₹14999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "escalated_human_review",
+      "retry_payment_link": "https://rzp.io/i/rec_46zzb9",
+      "created_at": "2026-09-03T05:44:57.227Z",
+      "updated_at": "2026-09-03T05:44:57.227Z"
+    },
+    {
+      "id": "tx_0041",
+      "razorpay_payment_id": "pay_4U7J0HK8M",
+      "razorpay_order_id": "order_26e7mmi5",
+      "amount": 4999,
+      "customer_id": "cust_0041",
+      "channel": "payment_link",
+      "failure_reason_raw": "Prepaid wallet balance low: Paytm wallet balance ₹12.50 insufficient for ₹899",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 59,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": 3,
+        "history_adjustment": 12,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 59,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "Transaction ticket ₹4999 has low friction (+3 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "escalated_human_review",
+      "retry_payment_link": "https://rzp.io/i/rec_4u7j0h",
+      "created_at": "2026-09-03T00:44:57.227Z",
+      "updated_at": "2026-09-03T00:44:57.227Z"
+    },
+    {
+      "id": "tx_0042",
+      "razorpay_payment_id": "pay_T9Y269J00",
+      "razorpay_order_id": "order_jydpq4bm",
+      "amount": 22500,
+      "customer_id": "cust_0042",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Prepaid wallet balance low: Paytm wallet balance ₹12.50 insufficient for ₹899",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 32,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": -12,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 32,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "High ticket size ₹22500 requires higher buyer intent (-12 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "escalated_human_review",
+      "retry_payment_link": "https://rzp.io/i/rec_t9y269",
+      "created_at": "2026-09-03T15:44:57.227Z",
+      "updated_at": "2026-09-03T15:44:57.227Z"
+    },
+    {
+      "id": "tx_0043",
+      "razorpay_payment_id": "pay_Z8S0N6URN",
+      "razorpay_order_id": "order_ktygndl5",
+      "amount": 31000,
+      "customer_id": "cust_0043",
+      "channel": "upi_app",
+      "failure_reason_raw": "Credit card declined: Exceeds assigned credit limit on card ending 4092",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 32,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": -12,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 32,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "High ticket size ₹31000 requires higher buyer intent (-12 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "escalated_human_review",
+      "retry_payment_link": "https://rzp.io/i/rec_z8s0n6",
+      "created_at": "2026-09-04T00:44:57.227Z",
+      "updated_at": "2026-09-04T00:44:57.227Z"
+    },
+    {
+      "id": "tx_0044",
+      "razorpay_payment_id": "pay_7KDH7ADBV",
+      "razorpay_order_id": "order_qbui0k5h",
+      "amount": 14999,
+      "customer_id": "cust_0044",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Credit card declined: Exceeds assigned credit limit on card ending 4092",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 44,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 44,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "Transaction ticket ₹14999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "escalated_human_review",
+      "retry_payment_link": "https://rzp.io/i/rec_7kdh7a",
+      "created_at": "2026-09-05T00:44:57.227Z",
+      "updated_at": "2026-09-05T00:44:57.227Z"
+    },
+    {
+      "id": "tx_0045",
+      "razorpay_payment_id": "pay_3FMPXU09A",
+      "razorpay_order_id": "order_bhopnn4w",
+      "amount": 8999,
+      "customer_id": "cust_0045",
+      "channel": "upi_app",
+      "failure_reason_raw": "Account overdraft limit reached: transaction declined by Federal Bank",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 56,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": 0,
+        "history_adjustment": 12,
+        "time_decay_penalty": 1,
+        "channel_factor": 1,
+        "final_score": 56,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "Transaction ticket ₹8999 has low friction (+0 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_3fmpxu",
+      "created_at": "2026-09-04T16:44:57.227Z",
+      "updated_at": "2026-09-04T16:44:57.227Z"
+    },
+    {
+      "id": "tx_0046",
+      "razorpay_payment_id": "pay_KM2MVJQ3Q",
+      "razorpay_order_id": "order_x3e74dh3",
+      "amount": 4999,
+      "customer_id": "cust_0046",
+      "channel": "payment_link",
+      "failure_reason_raw": "Kotak Bank: Available balance less than requested transaction amount ₹14,999",
+      "failure_bucket": "insufficient_funds",
+      "recoverability_score": 47,
+      "score_breakdown": {
+        "base_bucket_score": 44,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 47,
+        "rationale": [
+          "Root cause 'insufficient_funds' carries base recoverability index of 44/100",
+          "Transaction ticket ₹4999 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_km2mvj",
+      "created_at": "2026-09-03T13:44:57.227Z",
+      "updated_at": "2026-09-03T13:44:57.227Z"
+    },
+    {
+      "id": "tx_0047",
+      "razorpay_payment_id": "pay_06WD2V7WB",
+      "razorpay_order_id": "order_h2q4j63l",
+      "amount": 7999,
+      "customer_id": "cust_0047",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Merchant API key test mode rate limit exceeded",
+      "failure_bucket": "other",
+      "recoverability_score": 28,
+      "score_breakdown": {
+        "base_bucket_score": 28,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 0,
+        "channel_factor": 1,
+        "final_score": 28,
+        "rationale": [
+          "Root cause 'other' carries base recoverability index of 28/100",
+          "Transaction ticket ₹7999 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_06wd2v",
+      "created_at": "2026-09-05T06:44:57.227Z",
+      "updated_at": "2026-09-05T06:44:57.227Z"
+    },
+    {
+      "id": "tx_0048",
+      "razorpay_payment_id": "pay_O2ZX4NPC0",
+      "razorpay_order_id": "order_ahcuin6g",
+      "amount": 15000,
+      "customer_id": "cust_0048",
+      "channel": "payment_link",
+      "failure_reason_raw": "Expired payment link: Link validity exceeded 15 minutes TTL",
+      "failure_bucket": "other",
+      "recoverability_score": 28,
+      "score_breakdown": {
+        "base_bucket_score": 28,
+        "amount_adjustment": 0,
+        "history_adjustment": 0,
+        "time_decay_penalty": 3,
+        "channel_factor": 1,
+        "final_score": 28,
+        "rationale": [
+          "Root cause 'other' carries base recoverability index of 28/100",
+          "Transaction ticket ₹15000 has low friction (+0 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_o2zx4n",
+      "created_at": "2026-09-03T19:44:57.227Z",
+      "updated_at": "2026-09-03T19:44:57.227Z"
+    },
+    {
+      "id": "tx_0049",
+      "razorpay_payment_id": "pay_V5Y5U9CLJ",
+      "razorpay_order_id": "order_bkm3rvp2",
+      "amount": 7999,
+      "customer_id": "cust_0049",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Razorpay fraud prevention shield triggered: High-velocity IP anomaly detected",
+      "failure_bucket": "other",
+      "recoverability_score": 40,
+      "score_breakdown": {
+        "base_bucket_score": 28,
+        "amount_adjustment": 0,
+        "history_adjustment": 12,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 40,
+        "rationale": [
+          "Root cause 'other' carries base recoverability index of 28/100",
+          "Transaction ticket ₹7999 has low friction (+0 pts)",
+          "Repeat customer with verified recovery history (+12 pts)"
+        ]
+      },
+      "status": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_v5y5u9",
+      "created_at": "2026-09-03T00:44:57.227Z",
+      "updated_at": "2026-09-03T00:44:57.227Z"
+    },
+    {
+      "id": "tx_0050",
+      "razorpay_payment_id": "pay_6NXPPG16B",
+      "razorpay_order_id": "order_cpr5d8qd",
+      "amount": 25000,
+      "customer_id": "cust_0050",
+      "channel": "checkout_web",
+      "failure_reason_raw": "Expired payment link: Link validity exceeded 15 minutes TTL",
+      "failure_bucket": "other",
+      "recoverability_score": 16,
+      "score_breakdown": {
+        "base_bucket_score": 28,
+        "amount_adjustment": -12,
+        "history_adjustment": 0,
+        "time_decay_penalty": 2,
+        "channel_factor": 1,
+        "final_score": 16,
+        "rationale": [
+          "Root cause 'other' carries base recoverability index of 28/100",
+          "High ticket size ₹25000 requires higher buyer intent (-12 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "unrecoverable",
+      "retry_payment_link": "https://rzp.io/i/rec_6nxppg",
+      "created_at": "2026-09-04T08:44:57.227Z",
+      "updated_at": "2026-09-04T08:44:57.227Z"
+    },
+    {
+      "id": "tx_0051",
+      "razorpay_payment_id": "pay_NW8R3ZBMV",
+      "razorpay_order_id": "order_bvh5bh1o",
+      "amount": 2999,
+      "customer_id": "cust_0051",
+      "channel": "mobile_sdk",
+      "failure_reason_raw": "Expired payment link: Link validity exceeded 15 minutes TTL",
+      "failure_bucket": "other",
+      "recoverability_score": 31,
+      "score_breakdown": {
+        "base_bucket_score": 28,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 5,
+        "channel_factor": 1,
+        "final_score": 31,
+        "rationale": [
+          "Root cause 'other' carries base recoverability index of 28/100",
+          "Transaction ticket ₹2999 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "in_recovery",
+      "retry_payment_link": "https://rzp.io/i/sim_0051",
+      "created_at": "2026-09-02T17:44:57.227Z",
+      "updated_at": "2026-09-05T13:11:20.929Z",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_0051_att_1",
+      "is_live_razorpay": false,
+      "economic_evaluation": {
+        "expected_value": 929.69,
+        "channel_cost": 0.85,
+        "hurdle_multiplier": 3,
+        "hurdle_threshold": 2.55,
+        "is_viable": true,
+        "net_roi_ratio": 1093.8,
+        "decision_rationale": "Unit economics PASS: Expected value ₹929.69 (Score 31% of ₹2999) exceeds ₹2.55 hurdle threshold (3x of ₹0.85 message cost). ROI Ratio: 1093.8x."
+      },
+      "remediation_strategy": {
+        "type": "general_recovery",
+        "title": "Multi-Rail Recovery Link",
+        "action_summary": "Generate secure multi-instrument Razorpay retry link",
+        "channel_payload_type": "direct_retry_link",
+        "parameters": {
+          "alternate_instrument": "All Supported Instruments"
+        },
+        "reasoning": "Unclassified gateway anomaly. Providing a secure universal Razorpay payment link enables customer to pick their preferred recovery method."
+      },
+      "has_recurring_failure": false
+    },
+    {
+      "id": "tx_0052",
+      "razorpay_payment_id": "pay_N0WOGOBTS",
+      "razorpay_order_id": "order_j6evl80j",
+      "amount": 2999,
+      "customer_id": "cust_0052",
+      "channel": "payment_link",
+      "failure_reason_raw": "Duplicate transaction request identifier detected within 10s window",
+      "failure_bucket": "other",
+      "recoverability_score": 31,
+      "score_breakdown": {
+        "base_bucket_score": 28,
+        "amount_adjustment": 3,
+        "history_adjustment": 0,
+        "time_decay_penalty": 4,
+        "channel_factor": 1,
+        "final_score": 31,
+        "rationale": [
+          "Root cause 'other' carries base recoverability index of 28/100",
+          "Transaction ticket ₹2999 has low friction (+3 pts)",
+          "First-time buyer"
+        ]
+      },
+      "status": "unrecoverable",
+      "retry_payment_link": "https://rzp.io/i/rec_n0wogo",
+      "created_at": "2026-09-03T07:44:57.227Z",
+      "updated_at": "2026-09-03T07:44:57.227Z"
+    }
+  ],
+  "recovery_attempts": [
+    {
+      "id": "att_tx_0001_1",
+      "transaction_id": "tx_0001",
+      "customer_id": "cust_0001",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Aarav Sharma! Dekha aapka ₹499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_5x22pj . Reply STOP to opt-out.",
+      "sent_at": "2026-09-05T11:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_5x22pj",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0002_1",
+      "transaction_id": "tx_0002",
+      "customer_id": "cust_0002",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Vihaan Reddy! Dekha aapka ₹3499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_bl2o32 . Reply STOP to opt-out.",
+      "sent_at": "2026-09-05T12:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_bl2o32",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0002_2",
+      "transaction_id": "tx_0002",
+      "customer_id": "cust_0002",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Vihaan Reddy, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_bl2o32 . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-05T19:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_bl2o32",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0003_1",
+      "transaction_id": "tx_0003",
+      "customer_id": "cust_0003",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Aditya Kumar! Dekha aapka ₹499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_q1xj5r . Reply STOP to opt-out.",
+      "sent_at": "2026-09-04T02:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_q1xj5r",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0003_2",
+      "transaction_id": "tx_0003",
+      "customer_id": "cust_0003",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Aditya Kumar, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_q1xj5r . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-04T09:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_q1xj5r",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0003_3",
+      "transaction_id": "tx_0003",
+      "customer_id": "cust_0003",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Hi Aditya Kumar, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_q1xj5r . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_q1xj5r",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0004_1",
+      "transaction_id": "tx_0004",
+      "customer_id": "cust_0004",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Rohan Nair! Dekha aapka ₹1999 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_v8i1um . Reply STOP to opt-out.",
+      "sent_at": "2026-09-05T14:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_v8i1um",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0005_1",
+      "transaction_id": "tx_0005",
+      "customer_id": "cust_0005",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Reyansh Malhotra! Dekha aapka ₹2499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_cttvux . Reply STOP to opt-out.",
+      "sent_at": "2026-09-03T12:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_cttvux",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0005_2",
+      "transaction_id": "tx_0005",
+      "customer_id": "cust_0005",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Reyansh Malhotra, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_cttvux . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T19:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_cttvux",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0006_1",
+      "transaction_id": "tx_0006",
+      "customer_id": "cust_0006",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Kabir Kapoor! Dekha aapka ₹499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_grcih9 . Reply STOP to opt-out.",
+      "sent_at": "2026-09-02T21:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_grcih9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0006_2",
+      "transaction_id": "tx_0006",
+      "customer_id": "cust_0006",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Kabir Kapoor, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_grcih9 . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T04:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_grcih9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0006_3",
+      "transaction_id": "tx_0006",
+      "customer_id": "cust_0006",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Hi Kabir Kapoor, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_grcih9 . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T11:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_grcih9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0007_1",
+      "transaction_id": "tx_0007",
+      "customer_id": "cust_0007",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Ananya Shah! Dekha aapka ₹2499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_ye0n9d . Reply STOP to opt-out.",
+      "sent_at": "2026-09-04T04:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_ye0n9d",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0008_1",
+      "transaction_id": "tx_0008",
+      "customer_id": "cust_0008",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Diya Verma! Dekha aapka ₹3499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_oua65l . Reply STOP to opt-out.",
+      "sent_at": "2026-09-05T14:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_oua65l",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0008_2",
+      "transaction_id": "tx_0008",
+      "customer_id": "cust_0008",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Diya Verma, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_oua65l . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-05T21:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_oua65l",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0009_1",
+      "transaction_id": "tx_0009",
+      "customer_id": "cust_0009",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Ishaan Singh! Dekha aapka ₹1499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_86konf . Reply STOP to opt-out.",
+      "sent_at": "2026-09-02T18:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_86konf",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0009_2",
+      "transaction_id": "tx_0009",
+      "customer_id": "cust_0009",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Ishaan Singh, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_86konf . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T01:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_86konf",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0009_3",
+      "transaction_id": "tx_0009",
+      "customer_id": "cust_0009",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Hi Ishaan Singh, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_86konf . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T08:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_86konf",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0010_1",
+      "transaction_id": "tx_0010",
+      "customer_id": "cust_0010",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Aanya Mehta! Dekha aapka ₹499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_kki109 . Reply STOP to opt-out.",
+      "sent_at": "2026-09-03T03:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_kki109",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0011_1",
+      "transaction_id": "tx_0011",
+      "customer_id": "cust_0011",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Pooja Iyer! Dekha aapka ₹6999 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_a3b6qx . Reply STOP to opt-out.",
+      "sent_at": "2026-09-04T13:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_a3b6qx",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0011_2",
+      "transaction_id": "tx_0011",
+      "customer_id": "cust_0011",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Pooja Iyer, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_a3b6qx . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-04T20:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_a3b6qx",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0012_1",
+      "transaction_id": "tx_0012",
+      "customer_id": "cust_0012",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Rahul Bhatia! Dekha aapka ₹2499 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_jx9re0 . Reply STOP to opt-out.",
+      "sent_at": "2026-09-03T08:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_jx9re0",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0012_2",
+      "transaction_id": "tx_0012",
+      "customer_id": "cust_0012",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Rahul Bhatia, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_jx9re0 . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T15:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_jx9re0",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0012_3",
+      "transaction_id": "tx_0012",
+      "customer_id": "cust_0012",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Hi Rahul Bhatia, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_jx9re0 . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T22:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_jx9re0",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0013_1",
+      "transaction_id": "tx_0013",
+      "customer_id": "cust_0013",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Priya Mishra! Dekha aapka ₹1899 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_2up6bz . Reply STOP to opt-out.",
+      "sent_at": "2026-09-05T02:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_2up6bz",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0014_1",
+      "transaction_id": "tx_0014",
+      "customer_id": "cust_0014",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Amit Banerjee! Dekha aapka ₹699 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_3ecnnj . Reply STOP to opt-out.",
+      "sent_at": "2026-09-03T17:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_3ecnnj",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0014_2",
+      "transaction_id": "tx_0014",
+      "customer_id": "cust_0014",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Amit Banerjee, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_3ecnnj . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-04T00:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_3ecnnj",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0015_1",
+      "transaction_id": "tx_0015",
+      "customer_id": "cust_0015",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Neha Patel! Dekha aapka ₹2999 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_9e2jrh . Reply STOP to opt-out.",
+      "sent_at": "2026-09-03T13:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_9e2jrh",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0015_2",
+      "transaction_id": "tx_0015",
+      "customer_id": "cust_0015",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Neha Patel, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_9e2jrh . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-03T20:44:57.227Z",
+      "outcome": "clicked",
+      "retry_payment_link": "https://rzp.io/i/rec_9e2jrh",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0015_3",
+      "transaction_id": "tx_0015",
+      "customer_id": "cust_0015",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Hi Neha Patel, aapka pending order abhi reserved hai. Retry link: https://rzp.io/i/rec_9e2jrh . Agar help chahiye toh reply karein.",
+      "sent_at": "2026-09-04T03:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_9e2jrh",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0016_1",
+      "transaction_id": "tx_0016",
+      "customer_id": "cust_0016",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Vikas Gupta! Dekha aapka ₹699 ka payment complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se seedha complete kar sakte hain: https://rzp.io/i/rec_trhugk . Reply STOP to opt-out.",
+      "sent_at": "2026-09-02T19:44:57.227Z",
+      "outcome": "recovered",
+      "retry_payment_link": "https://rzp.io/i/rec_trhugk",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0031_1",
+      "transaction_id": "tx_0031",
+      "customer_id": "cust_0031",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Kunal Iyer, aapka ₹18500 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_yuefpu . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T07:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_yuefpu",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0032_1",
+      "transaction_id": "tx_0032",
+      "customer_id": "cust_0032",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Sanya Bhatia, aapka ₹38000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_gmnll5 . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_gmnll5",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0032_2",
+      "transaction_id": "tx_0032",
+      "customer_id": "cust_0032",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Sanya Bhatia, aapka ₹38000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_gmnll5 . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T07:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_gmnll5",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0033_1",
+      "transaction_id": "tx_0033",
+      "customer_id": "cust_0033",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Naveen Mishra, aapka ₹12000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_q4f5i7 . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_q4f5i7",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0034_1",
+      "transaction_id": "tx_0034",
+      "customer_id": "cust_0034",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Divya Banerjee, aapka ₹12000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_tpx8rp . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_tpx8rp",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0034_2",
+      "transaction_id": "tx_0034",
+      "customer_id": "cust_0034",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Divya Banerjee, aapka ₹12000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_tpx8rp . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-04T17:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_tpx8rp",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0035_1",
+      "transaction_id": "tx_0035",
+      "customer_id": "cust_0035",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Suresh Patel, aapka ₹24999 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_ptry8a . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_ptry8a",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0036_1",
+      "transaction_id": "tx_0036",
+      "customer_id": "cust_0036",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Swati Gupta, aapka ₹38000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_nhwkyk . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_nhwkyk",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0036_2",
+      "transaction_id": "tx_0036",
+      "customer_id": "cust_0036",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Swati Gupta, aapka ₹38000 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_nhwkyk . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-04T17:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_nhwkyk",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0037_1",
+      "transaction_id": "tx_0037",
+      "customer_id": "cust_0037",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Harsh Joshi, aapka ₹24999 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_kovkhs . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_kovkhs",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0038_1",
+      "transaction_id": "tx_0038",
+      "customer_id": "cust_0038",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Preeti Chopra, aapka ₹6500 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_grieqw . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_grieqw",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0038_2",
+      "transaction_id": "tx_0038",
+      "customer_id": "cust_0038",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Hi Preeti Chopra, aapka ₹6500 ka payment network issue ki wajah se ruk gaya tha. Ek tap mein retry karein: https://rzp.io/i/rec_grieqw . Reply STOP to unsubscribe.",
+      "sent_at": "2026-09-04T17:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_grieqw",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0039_1",
+      "transaction_id": "tx_0039",
+      "customer_id": "cust_0039",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 1 for Sunil Saxena: payment retry link https://rzp.io/i/rec_rvk2wm",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_rvk2wm",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0039_2",
+      "transaction_id": "tx_0039",
+      "customer_id": "cust_0039",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 2 for Sunil Saxena: payment retry link https://rzp.io/i/rec_rvk2wm",
+      "sent_at": "2026-09-04T23:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_rvk2wm",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0039_3",
+      "transaction_id": "tx_0039",
+      "customer_id": "cust_0039",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 3 for Sunil Saxena: payment retry link https://rzp.io/i/rec_rvk2wm",
+      "sent_at": "2026-09-05T06:44:57.227Z",
+      "outcome": "failed_escalated",
+      "retry_payment_link": "https://rzp.io/i/rec_rvk2wm",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0040_1",
+      "transaction_id": "tx_0040",
+      "customer_id": "cust_0040",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 1 for Rashmi Agarwal: payment retry link https://rzp.io/i/rec_46zzb9",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_46zzb9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0040_2",
+      "transaction_id": "tx_0040",
+      "customer_id": "cust_0040",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 2 for Rashmi Agarwal: payment retry link https://rzp.io/i/rec_46zzb9",
+      "sent_at": "2026-09-04T23:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_46zzb9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0040_3",
+      "transaction_id": "tx_0040",
+      "customer_id": "cust_0040",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 3 for Rashmi Agarwal: payment retry link https://rzp.io/i/rec_46zzb9",
+      "sent_at": "2026-09-05T06:44:57.227Z",
+      "outcome": "failed_escalated",
+      "retry_payment_link": "https://rzp.io/i/rec_46zzb9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0041_1",
+      "transaction_id": "tx_0041",
+      "customer_id": "cust_0041",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 1 for Prateek Sharma: payment retry link https://rzp.io/i/rec_4u7j0h",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_4u7j0h",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0041_2",
+      "transaction_id": "tx_0041",
+      "customer_id": "cust_0041",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 2 for Prateek Sharma: payment retry link https://rzp.io/i/rec_4u7j0h",
+      "sent_at": "2026-09-04T23:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_4u7j0h",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0041_3",
+      "transaction_id": "tx_0041",
+      "customer_id": "cust_0041",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 3 for Prateek Sharma: payment retry link https://rzp.io/i/rec_4u7j0h",
+      "sent_at": "2026-09-05T06:44:57.227Z",
+      "outcome": "failed_escalated",
+      "retry_payment_link": "https://rzp.io/i/rec_4u7j0h",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0042_1",
+      "transaction_id": "tx_0042",
+      "customer_id": "cust_0042",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 1 for Pallavi Reddy: payment retry link https://rzp.io/i/rec_t9y269",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_t9y269",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0042_2",
+      "transaction_id": "tx_0042",
+      "customer_id": "cust_0042",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 2 for Pallavi Reddy: payment retry link https://rzp.io/i/rec_t9y269",
+      "sent_at": "2026-09-04T23:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_t9y269",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0042_3",
+      "transaction_id": "tx_0042",
+      "customer_id": "cust_0042",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 3 for Pallavi Reddy: payment retry link https://rzp.io/i/rec_t9y269",
+      "sent_at": "2026-09-05T06:44:57.227Z",
+      "outcome": "failed_escalated",
+      "retry_payment_link": "https://rzp.io/i/rec_t9y269",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0043_1",
+      "transaction_id": "tx_0043",
+      "customer_id": "cust_0043",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 1 for Akash Kumar: payment retry link https://rzp.io/i/rec_z8s0n6",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_z8s0n6",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0043_2",
+      "transaction_id": "tx_0043",
+      "customer_id": "cust_0043",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 2 for Akash Kumar: payment retry link https://rzp.io/i/rec_z8s0n6",
+      "sent_at": "2026-09-04T23:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_z8s0n6",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0043_3",
+      "transaction_id": "tx_0043",
+      "customer_id": "cust_0043",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 3 for Akash Kumar: payment retry link https://rzp.io/i/rec_z8s0n6",
+      "sent_at": "2026-09-05T06:44:57.227Z",
+      "outcome": "failed_escalated",
+      "retry_payment_link": "https://rzp.io/i/rec_z8s0n6",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0044_1",
+      "transaction_id": "tx_0044",
+      "customer_id": "cust_0044",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 1 for Shweta Nair: payment retry link https://rzp.io/i/rec_7kdh7a",
+      "sent_at": "2026-09-04T16:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_7kdh7a",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0044_2",
+      "transaction_id": "tx_0044",
+      "customer_id": "cust_0044",
+      "attempt_number": 2,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 2 for Shweta Nair: payment retry link https://rzp.io/i/rec_7kdh7a",
+      "sent_at": "2026-09-04T23:44:57.227Z",
+      "outcome": "read",
+      "retry_payment_link": "https://rzp.io/i/rec_7kdh7a",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0044_3",
+      "transaction_id": "tx_0044",
+      "customer_id": "cust_0044",
+      "attempt_number": 3,
+      "channel": "whatsapp",
+      "message_sent": "Attempt 3 for Shweta Nair: payment retry link https://rzp.io/i/rec_7kdh7a",
+      "sent_at": "2026-09-05T06:44:57.227Z",
+      "outcome": "failed_escalated",
+      "retry_payment_link": "https://rzp.io/i/rec_7kdh7a",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0045_1",
+      "transaction_id": "tx_0045",
+      "customer_id": "cust_0045",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Abhishek Malhotra! Aapka ₹8999 payment pending reh gaya tha. Retry link: https://rzp.io/i/rec_3fmpxu . Reply STOP to opt out.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_3fmpxu",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0046_1",
+      "transaction_id": "tx_0046",
+      "customer_id": "cust_0046",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Monika Kapoor! Aapka ₹4999 payment pending reh gaya tha. Retry link: https://rzp.io/i/rec_km2mvj . Reply STOP to opt out.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_km2mvj",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0047_1",
+      "transaction_id": "tx_0047",
+      "customer_id": "cust_0047",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Rajat Shah! Aapka ₹7999 payment pending reh gaya tha. Retry link: https://rzp.io/i/rec_06wd2v . Reply STOP to opt out.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_06wd2v",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0048_1",
+      "transaction_id": "tx_0048",
+      "customer_id": "cust_0048",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Bhavna Verma! Aapka ₹15000 payment pending reh gaya tha. Retry link: https://rzp.io/i/rec_o2zx4n . Reply STOP to opt out.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_o2zx4n",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0049_1",
+      "transaction_id": "tx_0049",
+      "customer_id": "cust_0049",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Alok Singh! Aapka ₹7999 payment pending reh gaya tha. Retry link: https://rzp.io/i/rec_v5y5u9 . Reply STOP to opt out.",
+      "sent_at": "2026-09-05T01:44:57.227Z",
+      "outcome": "opted_out",
+      "retry_payment_link": "https://rzp.io/i/rec_v5y5u9",
+      "llm_model_used": "openai/gpt-oss-20b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_1788603111141_1_1788603111794",
+      "transaction_id": "tx_1788603111141",
+      "customer_id": "cust_1788602919767",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Aditi! Apna order complete karna tha, lekin bank server issue ki wajah se payment fail ho gaya. Koi tension nahi, amount automatic refund ho jayega. Aap chahein to yahan se safely retry kar sakte hain: https://rzp.io/i/sim_1788603111141 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:11:51.794Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_1788603111141",
+      "razorpay_payment_link_id": "plink_sim_1788603111234",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0017_1_1788603363592",
+      "transaction_id": "tx_0017",
+      "customer_id": "cust_0017",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Deepak, sorry for the glitch! Your network paused the payment verification, so nothing was deducted. Please retry securely here: https://rzp.io/i/sim_0017 We’d love to complete your order. (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:16:03.592Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_0017",
+      "razorpay_payment_link_id": "plink_sim_1788603363145",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0025_1_1788603553416",
+      "transaction_id": "tx_0025",
+      "customer_id": "cust_0025",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Karan! Hum notice kiya ki aapne ₹3999 ka order complete nahi kiya. Kya ho sakta hai ki payment options ke waqt kuch doubt ho gaya ho? Koi tension nahi, ab aap khud decide karke secure payment kar sakte hain. Yahan se complete karein: https://rzp.io/i/sim_0025 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:19:13.416Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_0025",
+      "razorpay_payment_link_id": "plink_sim_1788603552908",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_funds_1788603741210_1_1788603741822",
+      "transaction_id": "tx_test_funds_1788603741210",
+      "customer_id": "cust_test_funds",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Valued Customer, aapka ₹14999 payment bank balance ke karan hold ho gaya. Koi tension nahi, ab aapko Card EMI, PayLater, ya kisi doosre account se aaram se pay karne ka option mil raha hai. Bas neeche link se secure payment complete karein. https://rzp.io/i/sim_test_funds_1788603741210 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:22:21.822Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_funds_1788603741210",
+      "razorpay_payment_link_id": "plink_sim_1788603741213",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "flexible_payment_split_emi",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_cart_1788603741828_1_1788603742335",
+      "transaction_id": "tx_test_cart_1788603741828",
+      "customer_id": "cust_test_cart",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Humne aapke cart ke items reserve kar rakhe hain. Kya aap ₹3200 ki shopping complete karna chahte hain? Aap yahan se bina dobara details bhare seedhe checkout complete kar sakte hain. Yeh link se checkout karein: https://rzp.io/i/sim_test_cart_1788603741828 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:22:22.335Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_cart_1788603741828",
+      "razorpay_payment_link_id": "plink_sim_1788603741832",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "cart_value_rescue",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_upi_1788603742343_1_1788603742916",
+      "transaction_id": "tx_test_upi_1788603742343",
+      "customer_id": "cust_test_upi",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Humne notice kiya ki aapka ₹1999 ka payment UPI network issue ki wajah se complete nahi hua. Koi tension nahi, agar paise cut hue hain toh 24-48 ghante mein auto-refund ho jayega. Aap yahan ek tap karke turant retry kar sakte hain: https://rzp.io/i/sim_test_upi_1788603742343 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:22:22.916Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_upi_1788603742343",
+      "razorpay_payment_link_id": "plink_sim_1788603742351",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_funds_1788605267340_1_1788605268001",
+      "transaction_id": "tx_test_funds_1788605267340",
+      "customer_id": "cust_test_funds",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum jaante hain ki aapne pehle bhi ₹14,999 ke payment mein balance issue face kiya. Ab tension mat lein. Humne link mein No-Cost Card EMI aur PayLater options enable kiye hain, taaki aap easily pay kar saken. Yahan se secure transaction complete karein: https://rzp.io/i/sim_test_funds_1788605267340 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:47:48.001Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_funds_1788605267340",
+      "razorpay_payment_link_id": "plink_sim_1788605267344",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "flexible_payment_split_emi",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_cart_1788605268006_1_1788605268658",
+      "transaction_id": "tx_test_cart_1788605268006",
+      "customer_id": "cust_test_cart",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum ne dekha aapke ₹3200 wale items cart mein reserved hain. Pehle bhi kuch baar checkout ke waqt aapka focus hat gaya tha, isliye ab hume Aap yahan se bina dobara details bhare seedhe checkout complete kar sakte hain. https://rzp.io/i/sim_test_cart_1788605268006 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:47:48.658Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_cart_1788605268006",
+      "razorpay_payment_link_id": "plink_sim_1788605268011",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "cart_value_rescue",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_upi_1788605268667_1_1788605269374",
+      "transaction_id": "tx_test_upi_1788605268667",
+      "customer_id": "cust_test_upi",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hamari taraf se thodi dikkat hai, lekin aapki ₹1999 ki payment ke liye hum yahan hain. Pehle se aapko UPI timeout ka face kiya hai, isliye GPay/PhonePe update karna ya Netbanking try karna peak hours mein zyada reliable hai. Agar debit hua hai, bank 24-48 ghante mein refund karega. Ek tap mein retry karein: https://rzp.io/i/sim_test_upi_1788605268667 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:47:49.374Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_upi_1788605268667",
+      "razorpay_payment_link_id": "plink_sim_1788605268674",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dlt_test_1788605916817_1_1788605917587",
+      "transaction_id": "tx_dlt_test_1788605916817",
+      "customer_id": "cust_dlt_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Valued Customer, aapka ₹1999 payment NPCI timeout ki wajah se pending hai. Kripya tension na lein; agar koi debit hua hai toh bank auto-refund 24-48 hours mein kar dega. Aapka order secure hai. Bas yeh 1-tap link press karke retry karein: https://rzp.io/i/sim_dlt_test_1788605916817 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T10:58:37.587Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dlt_test_1788605916817",
+      "razorpay_payment_link_id": "plink_sim_1788605916824",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_recon_1788606007594_1_1788606008507",
+      "transaction_id": "tx_recon_1788606007594",
+      "customer_id": "cust_recon_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Valued Customer, humein koi technical glitch dikhi hai aapki UPI payment mein. Kripya chinta na karein, agar paisa deduct hua hai toh bank automatic refund 24-48 ghante mein karega. Kripya is secure link par tap karke apni ₹2499 ki payment turant complete karein: https://rzp.io/i/sim_recon_1788606007594 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:00:08.507Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_recon_1788606007594",
+      "razorpay_payment_link_id": "plink_sim_1788606007602",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dblclick_1788606082398_1_1788606083075",
+      "transaction_id": "tx_dblclick_1788606082398",
+      "customer_id": "cust_idem_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Valued Customer, hamari upar se ek chhota sa technical timeout ho gaya tha, isliye aapka ₹2999 payment complete nahi hua. Agar paise cut hue hain, toh bank 24-48 ghanton mein khud refund kar dega. Aap bas niche wale link pe tap karke ek baar dobara try kar sakte hain. https://rzp.io/i/sim_dblclick_1788606082398 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:01:23.075Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dblclick_1788606082398",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dblclick_1788606082398_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dblclick_1788606082398_1_1788606083084",
+      "transaction_id": "tx_dblclick_1788606082398",
+      "customer_id": "cust_idem_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste, Valued Customer! Apni ₹2999 ki payment UPI switch timeout ki wajah se complete nahi hui. Koi tension nahi, agar paisa debit hua hai toh bank 24-48 hours me auto-refund kar dega. Aap yahan se ek tap me securely retry kar sakte hain: https://rzp.io/i/sim_dblclick_1788606082398 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:01:23.084Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dblclick_1788606082398",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dblclick_1788606082398_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dlt_test_1788606601129_1_1788606602242",
+      "transaction_id": "tx_dlt_test_1788606601129",
+      "customer_id": "cust_dlt_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum jaante hain ki aapne pehle bhi UPI timeout ka samna kiya hai, jiske liye hum aapke saath hain. Kripya apni UPI app update karein ya Netbanking use karein. Agar paise kat gaye hain, toh 24-48 ghante mein auto-refund ho jayega. Yahan se aaram se retry karein: https://rzp.io/i/sim_dlt_test_1788606601129 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:10:02.242Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dlt_test_1788606601129",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dlt_test_1788606601129_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_recon_1788606608308_1_1788606609003",
+      "transaction_id": "tx_recon_1788606608308",
+      "customer_id": "cust_recon_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum jaante hain ki aapko pehle bhi UPI timeout ka issue hua hai, isliye hum khaas care le rahe hain. Agar paise cut hue hain, toh bank 24-48 ghante mein auto-refund karega. Is baar, peak hours mein Netbanking ya Cards use karein taaki problem na ho. Aapka ₹2499 payment ready hai. (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:10:09.003Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_recon_1788606608308",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_recon_1788606608308_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dblclick_1788606618131_1_1788606618852",
+      "transaction_id": "tx_dblclick_1788606618131",
+      "customer_id": "cust_idem_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum jaante hain ki aapko pehli baar bhi UPI timeout ka issue hua tha, isliye hum extra care le rahe hain. Agar koi amount debit hua hai, toh bank 24-48 ghante mein auto-refund karega. Aap UPI app update karein ya Netbanking use karein. Yahan se safe retry karein: https://rzp.io/i/sim_dblclick_1788606618131 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:10:18.852Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dblclick_1788606618131",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dblclick_1788606618131_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dblclick_1788606618131_1_1788606618927",
+      "transaction_id": "tx_dblclick_1788606618131",
+      "customer_id": "cust_idem_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum jaante hain ki aapko pichli baar bhi UPI timeout ka issue hua tha, isliye ab extra care le rahe hain. Agar paise debit hue the, toh bank 24-48 hours mein auto-refund karega. Please apna UPI app update karein ya Netbanking setup karein for better reliability. Aapka ₹2999 payment ready hai. Yahan se 1-tap retry karein: https://rzp.io/i/sim_dblclick_1788606618131 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:10:18.927Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dblclick_1788606618131",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dblclick_1788606618131_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_1788602919770_1_1788606756109",
+      "transaction_id": "tx_1788602919770",
+      "customer_id": "cust_1788602919767",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Aditi, hum jaante hain ki aapko pehle bhi UPI timeout ka sabar karna pada tha, isliye hum thoda aur dhyan se help karenge. Agar amount debit hua hai, toh bank 24-48 hours mein auto-refund karega. Peak hours ke liye GPay/PhonePe update karein ya Netbanking use karein. Yahan 1-tap se retry karein: https://rzp.io/i/sim_1788602919770 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:12:36.109Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_1788602919770",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_1788602919770_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_1788603082674_1_1788606759840",
+      "transaction_id": "tx_1788603082674",
+      "customer_id": "cust_1788602919767",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Aditi, hum jaante hain ki aapko pehle bhi UPI timeout ka issue hua hai, isliye hum aapki khaas dhyan rakhte hain. Kripya apni UPI app update karein ya Netbanking use karein. Agar paise kat gaye hain, toh 24-48 ghante mein auto-refund hoga. Aapka ₹2599 payment yahan se complete karein: https://rzp.io/i/sim_1788603082674 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:12:39.840Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_1788603082674",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_1788603082674_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0022_1_1788608326309",
+      "transaction_id": "tx_0022",
+      "customer_id": "cust_0022",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Hi Meera, aapke selected items safely reserved hain. 1-tap checkout se aap easily ₹8999 order complete kar sakti hain without re-filling details. Aapke convenience ke liye yeh secure link hai: https://rzp.io/i/sim_0022 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:38:46.309Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_0022",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_0022_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "cart_value_rescue",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0027_1_1788609110157",
+      "transaction_id": "tx_0027",
+      "customer_id": "cust_0027",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Manish ji, aapke selected items ₹5499 ke session mein safely reserved hain. Aapki convenience ke liye hume 1-tap checkout link share kar rahe hain, jahan aapke details pre-filled hain. Apni cart complete karne ke liye link open karein: https://rzp.io/i/sim_0027 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:51:50.157Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_0027",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_0027_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "cart_value_rescue",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_funds_1788609545332_1_1788609546191",
+      "transaction_id": "tx_test_funds_1788609545332",
+      "customer_id": "cust_test_funds",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Valued Customer, hum samajhte hain ki pehle bhi balance ki wajah se transaction issue hua. Ab aapke liye ₹14,999 par No-Cost EMI aur PayLater options enable hain, taaki balance limit na ho. Yeh secure link se aapke liye best option choose kar sakte hain: https://rzp.io/i/sim_test_funds_1788609545332 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:59:06.191Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_funds_1788609545332",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_test_funds_1788609545332_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "flexible_payment_split_emi",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_cart_1788609546195_1_1788609547259",
+      "transaction_id": "tx_test_cart_1788609546195",
+      "customer_id": "cust_test_cart",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hamne aapke cart ke items (₹3200) safe rakhe hain. Pehle bhi checkout incomplete rah gaya tha, isliye hume khaas dhyan rakhna pada. Aapka session abhi active hai, isliye ek hi tap mein secure link se checkout complete kar sakte hain. https://rzp.io/i/sim_test_cart_1788609546195 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:59:07.259Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_cart_1788609546195",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_test_cart_1788609546195_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "cart_value_rescue",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_test_upi_1788609547266_1_1788609548013",
+      "transaction_id": "tx_test_upi_1788609547266",
+      "customer_id": "cust_test_upi",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste! Hum jaante hain ki aapko UPI timeout se baar-baar pareshani hui hai, isliye hum aur dhyan se madad kar rahe hain. Agar paise kat gaye hain toh 24-48 ghante mein auto-refund aa jayega. Aage se UPI app update karein ya Card use karein. Yahan se retry karein: https://rzp.io/i/sim_test_upi_1788609547266 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:59:08.013Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_test_upi_1788609547266",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_test_upi_1788609547266_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_dlt_test_1788609557895_1_1788609558503",
+      "transaction_id": "tx_dlt_test_1788609557895",
+      "customer_id": "cust_dlt_test",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Valued Customer, hum jaante hain aapko pehle bhi UPI timeout ka samna hua hai. Agar paise kat gaye, bank 24-48 ghante mein refund karega. Aap UPI app update karke ya Netbanking use karke dobara try kar sakte hain: https://rzp.io/i/sim_dlt_test_1788609557895 (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T11:59:18.503Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_dlt_test_1788609557895",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_dlt_test_1788609557895_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "transient_network_retry",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    },
+    {
+      "id": "att_tx_0051_1_1788613880923",
+      "transaction_id": "tx_0051",
+      "customer_id": "cust_0051",
+      "attempt_number": 1,
+      "channel": "whatsapp",
+      "message_sent": "Namaste Aarav ji, hume lagta hai aapka ₹2999 ka payment complete nahi hua. Koi tension nahi, aap apni pasand ka koi bhi payment method use kar sakte hain. Please is secure link se payment complete karein: https://rzp.io/i/sim_0051. Dhanyavaad. (Reply STOP to opt out)",
+      "sent_at": "2026-09-05T13:11:20.923Z",
+      "outcome": "sent",
+      "retry_payment_link": "https://rzp.io/i/sim_0051",
+      "razorpay_payment_link_id": "plink_sim_idem_tx_0051_att_1",
+      "is_live_razorpay": false,
+      "llm_model_used": "groq/qwen/qwen3.8-27b",
+      "remediation_strategy_used": "general_recovery",
+      "message_category": "transactional",
+      "guardrail_checks": {
+        "max_attempts_checked": true,
+        "cooldown_checked": true,
+        "opt_out_checked": true,
+        "tone_safety_checked": true,
+        "dlt_compliance_checked": true
+      }
+    }
+  ],
+  "human_escalations": [
+    {
+      "id": "esc_tx_0039",
+      "transaction_id": "tx_0039",
+      "customer_id": "cust_0039",
+      "reason": "max_attempts_reached",
+      "status": "pending",
+      "assigned_to": "Support Team L2",
+      "notes": "Customer completed 3 automated Hinglish recovery outreach attempts with zero conversion. Failure bucket: insufficient_funds. Ticket amount: ₹8999. Customer phone: +919123806884. Manual verification recommended.",
+      "created_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "esc_tx_0040",
+      "transaction_id": "tx_0040",
+      "customer_id": "cust_0040",
+      "reason": "max_attempts_reached",
+      "status": "pending",
+      "assigned_to": "Support Team L2",
+      "notes": "Customer completed 3 automated Hinglish recovery outreach attempts with zero conversion. Failure bucket: insufficient_funds. Ticket amount: ₹14999. Customer phone: +918892649056. Manual verification recommended.",
+      "created_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "esc_tx_0041",
+      "transaction_id": "tx_0041",
+      "customer_id": "cust_0041",
+      "reason": "max_attempts_reached",
+      "status": "pending",
+      "assigned_to": "Support Team L2",
+      "notes": "Customer completed 3 automated Hinglish recovery outreach attempts with zero conversion. Failure bucket: insufficient_funds. Ticket amount: ₹4999. Customer phone: +917087117460. Manual verification recommended.",
+      "created_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "esc_tx_0042",
+      "transaction_id": "tx_0042",
+      "customer_id": "cust_0042",
+      "reason": "max_attempts_reached",
+      "status": "pending",
+      "assigned_to": "Support Team L2",
+      "notes": "Customer completed 3 automated Hinglish recovery outreach attempts with zero conversion. Failure bucket: insufficient_funds. Ticket amount: ₹22500. Customer phone: +918079432869. Manual verification recommended.",
+      "created_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "esc_tx_0043",
+      "transaction_id": "tx_0043",
+      "customer_id": "cust_0043",
+      "reason": "max_attempts_reached",
+      "status": "pending",
+      "assigned_to": "Support Team L2",
+      "notes": "Customer completed 3 automated Hinglish recovery outreach attempts with zero conversion. Failure bucket: insufficient_funds. Ticket amount: ₹31000. Customer phone: +919841767671. Manual verification recommended.",
+      "created_at": "2026-09-05T07:44:57.227Z"
+    },
+    {
+      "id": "esc_tx_0044",
+      "transaction_id": "tx_0044",
+      "customer_id": "cust_0044",
+      "reason": "max_attempts_reached",
+      "status": "pending",
+      "assigned_to": "Support Team L2",
+      "notes": "Customer completed 3 automated Hinglish recovery outreach attempts with zero conversion. Failure bucket: insufficient_funds. Ticket amount: ₹14999. Customer phone: +919962458253. Manual verification recommended.",
+      "created_at": "2026-09-05T07:44:57.227Z"
+    }
+  ]
+}
