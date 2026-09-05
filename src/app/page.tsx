@@ -95,14 +95,22 @@ export default function DashboardPage() {
       if (data.success) {
         setActionMessage({
           type: 'success',
-          text: `Seeded ${data.counts.transactionsCount} realistic failed transactions & drop-offs!`,
+          text: `Seeded ${data.counts?.transactionsCount || 54} realistic failed transactions & drop-offs!`,
         });
         await fetchData();
+      } else {
+        setActionMessage({
+          type: 'error',
+          text: data.error || data.details || 'Failed to seed synthetic dataset.',
+        });
       }
-    } catch (err) {
-      setActionMessage({ type: 'error', text: 'Failed to seed synthetic dataset.' });
+    } catch (err: any) {
+      setActionMessage({ type: 'error', text: err?.message || 'Failed to seed synthetic dataset.' });
     } finally {
       setIsSeeding(false);
+      setTimeout(() => {
+        setActionMessage(null);
+      }, 5000);
     }
   };
 

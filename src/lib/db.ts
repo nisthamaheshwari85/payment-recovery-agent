@@ -20,8 +20,10 @@ export const supabase = (supabaseUrl && supabaseAnonKey)
   : null;
 
 // Local JSON File Store Path (for deterministic fallback and offline demo mode)
+const IS_SERVERLESS = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME || process.env.NEXT_RUNTIME);
 const DATA_DIR = path.join(process.cwd(), 'data');
-const STORE_PATH = path.join(DATA_DIR, 'store.json');
+const BUNDLED_STORE_PATH = path.join(DATA_DIR, 'store.json');
+const TMP_STORE_PATH = path.join('/tmp', 'payment_agent_store.json');
 
 interface DatabaseStore {
   customers: Customer[];
@@ -30,41 +32,69 @@ interface DatabaseStore {
   human_escalations: HumanEscalation[];
 }
 
-function ensureDataDir(): void {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-  }
-}
+let memoryStore: DatabaseStore | null = null;
 
 function readStore(): DatabaseStore {
-  ensureDataDir();
-  if (!fs.existsSync(STORE_PATH)) {
-    const empty: DatabaseStore = {
-      customers: [],
-      transactions: [],
-      recovery_attempts: [],
-      human_escalations: [],
-    };
-    fs.writeFileSync(STORE_PATH, JSON.stringify(empty, null, 2), 'utf8');
-    return empty;
+  if (memoryStore) {
+    return memoryStore;
   }
-  try {
-    const raw = fs.readFileSync(STORE_PATH, 'utf8');
-    return JSON.parse(raw) as DatabaseStore;
-  } catch (err) {
-    console.error('Error reading local store:', err);
-    return {
-      customers: [],
-      transactions: [],
-      recovery_attempts: [],
-      human_escalations: [],
-    };
+
+  // 1. Try reading from /tmp store if in serverless and exists
+  if (fs.existsSync(TMP_STORE_PATH)) {
+    try {
+      const raw = fs.readFileSync(TMP_STORE_PATH, 'utf8');
+      memoryStore = JSON.parse(raw) as DatabaseStore;
+      return memoryStore;
+    } catch (err) {
+      console.warn('Could not read from /tmp store, falling back to bundled store:', err);
+    }
   }
+
+  // 2. Try reading from bundled static data/store.json
+  if (fs.existsSync(BUNDLED_STORE_PATH)) {
+    try {
+      const raw = fs.readFileSync(BUNDLED_STORE_PATH, 'utf8');
+      memoryStore = JSON.parse(raw) as DatabaseStore;
+      return memoryStore;
+    } catch (err) {
+      console.error('Error reading bundled local store:', err);
+    }
+  }
+
+  // 3. Fallback empty store
+  const empty: DatabaseStore = {
+    customers: [],
+    transactions: [],
+    recovery_attempts: [],
+    human_escalations: [],
+  };
+  memoryStore = empty;
+  return empty;
 }
 
 function writeStore(store: DatabaseStore): void {
-  ensureDataDir();
-  fs.writeFileSync(STORE_PATH, JSON.stringify(store, null, 2), 'utf8');
+  // Always update in-memory instance first
+  memoryStore = store;
+
+  // Try writing to local data/store.json if not in serverless
+  if (!IS_SERVERLESS) {
+    try {
+      if (!fs.existsSync(DATA_DIR)) {
+        fs.mkdirSync(DATA_DIR, { recursive: true });
+      }
+      fs.writeFileSync(BUNDLED_STORE_PATH, JSON.stringify(store, null, 2), 'utf8');
+      return;
+    } catch (err: any) {
+      console.warn('Cannot write to bundled store path (read-only filesystem), writing to /tmp instead:', err?.message);
+    }
+  }
+
+  // Write to /tmp in serverless / read-only filesystem environments
+  try {
+    fs.writeFileSync(TMP_STORE_PATH, JSON.stringify(store, null, 2), 'utf8');
+  } catch (err: any) {
+    console.warn('Warning: Could not write to /tmp store, persisting in memory only:', err?.message);
+  }
 }
 
 export const db = {
