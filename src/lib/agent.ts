@@ -25,7 +25,7 @@ const HINGLISH_FALLBACK_TEMPLATES: Record<
 > = {
   upi_timeout: (ctx) => {
     if (ctx.attemptNumber === 1) {
-      return `Namaste ${ctx.customerName}! Dekha aapka ₹${ctx.amount} ka payment UPI/bank network timeout ki wajah se complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se direct retry kar sakte hain: ${ctx.retryPaymentLink} . Agar amount deduct hua ho, toh 24-48 ghante mein automatically refund ho jayega. Reply STOP to opt out.`;
+      return `Namaste ${ctx.customerName}! Dekha aapka ₹${ctx.amount} ka payment UPI/bank network timeout ki wajah se complete nahi ho paya. Don't worry, aap bina dobara cart banaye yahan se direct retry kar sakte hain: ${ctx.retryPaymentLink} . Agar amount deduct hua ho, toh bank ke standard process ke mutabik refund ho jayega. Reply STOP to opt out.`;
     }
     return `Hi ${ctx.customerName}, aapka ₹${ctx.amount} ka order abhi bhi safely reserved hai. Agar aap UPI ya alternate option se complete karna chahte hain toh link open karein: ${ctx.retryPaymentLink} . Kisi madad ke liye reply karein. Reply STOP to opt out.`;
   },
@@ -86,7 +86,7 @@ The customer's card was rejected by the bank (OTP timeout or card limit).
 Encourage them to complete via Instant 1-click UPI (Google Pay, PhonePe) or Netbanking on the link to avoid card OTP friction.`;
     } else {
       strategyGuidance = `SPECIAL REMEDIATION ACTION: TRANSIENT GATEWAY RETRY.
-Transient network / UPI timeout. Reassure them that if money was debited, their bank will auto-refund within 24-48 hours. Provide the direct 1-tap retry link.`;
+Transient network / UPI timeout. If money was debited, reassure them using strictly non-committal language like "any amount debited will be refunded as per your bank's standard process" (STRICTLY NEVER promise any specific timeline or number of hours/days). Provide the direct 1-tap retry link.`;
     }
 
     if (context.recurringPattern) {
@@ -103,12 +103,16 @@ CRITICAL REGULATORY & ETHICAL CONSTRAINTS:
 1. TRAI DLT Transactional Template Compliance (Service-Implicit):
    Strictly NEVER use promotional language, discount vouchers, marketing incentives, or fake urgency.
    Prohibited words: "discount", "voucher", "coupon", "promo", "SAVE5", "offer", "sale", "hurry", "last chance", "limited time", "urgent", "penalty", "final warning", "account blocked".
-2. Tone must be warm, respectful, and non-accusatory. Never blame the customer.
-3. Apply the specific remediation strategy below.
-4. End with the exact Razorpay link: ${context.retryPaymentLink}
-5. Conclude with the mandatory opt-out disclaimer: "(Reply STOP to opt out)"
-6. Length: between 35 and 65 words.
-7. Output ONLY the WhatsApp message text without quotes, headers, or markdown wrappers.
+2. STRICT BAN ON SPECIFIC REFUND TIMELINES (Compliance & Bank Liability):
+   NEVER autonomously state or promise any specific refund timeframe (no "24-48 hours", no "X days", no numeric timeline of any kind regarding refunds).
+   Actual refund processing depends entirely on the customer's bank. If mentioning a debited amount, use ONLY generic non-committal language:
+   "agar amount deduct hua ho, toh bank ke standard process ke mutabik refund ho jayega" or "any amount debited will be refunded as per your bank's standard process".
+3. Tone must be warm, respectful, and non-accusatory. Never blame the customer.
+4. Apply the specific remediation strategy below.
+5. End with the exact Razorpay link: ${context.retryPaymentLink}
+6. Conclude with the mandatory opt-out disclaimer: "(Reply STOP to opt out)"
+7. Length: between 35 and 65 words.
+8. Output ONLY the WhatsApp message text without quotes, headers, or markdown wrappers.
 
 ${strategyGuidance}`;
 
@@ -146,7 +150,7 @@ ${strategyGuidance}`;
                   role: 'user',
                   content:
                     retry > 0
-                      ? `${userPrompt}\n\nIMPORTANT: Your previous output contained prohibited promotional or urgency words. Strictly avoid words like discount, coupon, offer, hurry, or expires. Keep it strictly transactional, supportive, and helpful.`
+                      ? `${userPrompt}\n\nIMPORTANT: Your previous output contained prohibited urgency words or a specific refund timeline promise. Strictly avoid words like discount, coupon, offer, hurry, or promising specific refund hours/days (like 24-48 hours). If mentioning refund, use ONLY 'as per your bank's standard process'. Keep it strictly transactional, supportive, and helpful.`
                       : userPrompt,
                 },
               ],

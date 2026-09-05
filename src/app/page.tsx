@@ -1534,72 +1534,110 @@ export default function DashboardPage() {
             )}
 
             {/* Explainable Recoverability Scoring Breakdown */}
-            <div
-              style={{
-                background: 'rgba(255, 255, 255, 0.03)',
-                border: '1px solid var(--border-subtle)',
-                borderRadius: '12px',
-                padding: '16px',
-                marginBottom: '20px',
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                <div>
-                  <span style={{ fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
-                    EXPLAINABLE RECOVERABILITY SCORING BREAKDOWN
-                  </span>
-                  <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '2px' }}>
-                    Additive transparent points computed from real checkout and customer signals
-                  </p>
-                </div>
-                <span
+            {(() => {
+              const breakdown = computeExplainableScoreBreakdown(selectedTx, selectedTx.customer);
+              const totalScore = breakdown.total_score;
+              return (
+                <div
+                  className="glass-panel"
                   style={{
-                    fontSize: '1.15rem',
-                    fontWeight: 800,
-                    color: selectedTx.recoverability_score >= 70 ? '#34d399' : '#fbbf24',
+                    background: 'rgba(255, 255, 255, 0.02)',
+                    border: '1px solid var(--border-subtle)',
+                    borderRadius: '12px',
+                    padding: '16px',
+                    marginBottom: '20px',
                   }}
                 >
-                  {selectedTx.recoverability_score} / 100
-                </span>
-              </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                    <div>
+                      <span style={{ fontSize: '0.825rem', fontWeight: 600, color: 'var(--text-secondary)' }}>
+                        EXPLAINABLE RECOVERABILITY SCORING BREAKDOWN
+                      </span>
+                      <p style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '2px' }}>
+                        Additive transparent points computed from real checkout and customer signals
+                      </p>
+                    </div>
+                    <div style={{ textAlign: 'right' }}>
+                      <span
+                        id="scoring-breakdown-total"
+                        style={{
+                          fontSize: '1.25rem',
+                          fontWeight: 800,
+                          color: totalScore >= 70 ? '#34d399' : '#fbbf24',
+                        }}
+                      >
+                        {totalScore} / 100
+                      </span>
+                      <div style={{ fontSize: '0.68rem', color: 'var(--text-muted)' }}>
+                        Literal sum of {breakdown.items.length} factors
+                      </div>
+                    </div>
+                  </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                {computeExplainableScoreBreakdown(selectedTx, selectedTx.customer).items.map((item) => (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {breakdown.items.map((item) => (
+                      <div
+                        key={item.id}
+                        style={{
+                          display: 'flex',
+                          justifyContent: 'space-between',
+                          alignItems: 'center',
+                          padding: '8px 12px',
+                          borderRadius: '8px',
+                          background: item.points >= 0 ? 'rgba(52, 211, 153, 0.06)' : 'rgba(239, 68, 68, 0.07)',
+                          border: item.points >= 0 ? '1px solid rgba(52, 211, 153, 0.18)' : '1px solid rgba(239, 68, 68, 0.22)',
+                        }}
+                      >
+                        <div style={{ display: 'flex', flexDirection: 'column', paddingRight: '8px' }}>
+                          <span style={{ fontSize: '0.8rem', fontWeight: 600, color: item.points >= 0 ? '#6ee7b7' : '#fca5a5' }}>
+                            {item.label}
+                          </span>
+                          <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '2px', lineHeight: 1.3 }}>
+                            {item.explanation}
+                          </span>
+                        </div>
+                        <span
+                          style={{
+                            fontSize: '0.85rem',
+                            fontWeight: 700,
+                            color: item.points >= 0 ? '#34d399' : '#ef4444',
+                            marginLeft: '8px',
+                            flexShrink: 0,
+                          }}
+                        >
+                          {item.points > 0 ? `+${item.points}` : item.points}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Explicit Arithmetic Proof Row */}
                   <div
-                    key={item.id}
+                    id="scoring-arithmetic-proof"
                     style={{
+                      marginTop: '12px',
+                      paddingTop: '10px',
+                      borderTop: '1px dashed var(--border-subtle)',
                       display: 'flex',
                       justifyContent: 'space-between',
                       alignItems: 'center',
+                      fontSize: '0.75rem',
+                      color: 'var(--text-secondary)',
+                      background: 'rgba(255, 255, 255, 0.015)',
                       padding: '8px 12px',
-                      borderRadius: '8px',
-                      background: item.points >= 0 ? 'rgba(52, 211, 153, 0.06)' : 'rgba(239, 68, 68, 0.07)',
-                      border: item.points >= 0 ? '1px solid rgba(52, 211, 153, 0.18)' : '1px solid rgba(239, 68, 68, 0.22)',
+                      borderRadius: '6px',
                     }}
                   >
-                    <div style={{ display: 'flex', flexDirection: 'column', paddingRight: '8px' }}>
-                      <span style={{ fontSize: '0.8rem', fontWeight: 600, color: item.points >= 0 ? '#6ee7b7' : '#fca5a5' }}>
-                        {item.label}
-                      </span>
-                      <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', marginTop: '2px', lineHeight: 1.3 }}>
-                        {item.explanation}
-                      </span>
-                    </div>
-                    <span
-                      style={{
-                        fontSize: '0.85rem',
-                        fontWeight: 700,
-                        color: item.points >= 0 ? '#34d399' : '#ef4444',
-                        marginLeft: '8px',
-                        flexShrink: 0,
-                      }}
-                    >
-                      {item.points > 0 ? `+${item.points}` : item.points}
+                    <span style={{ fontFamily: 'monospace', fontSize: '0.73rem' }}>
+                      Exact Sum: {breakdown.items.map((i) => (i.points >= 0 ? `+${i.points}` : `${i.points}`)).join(' ')}
+                    </span>
+                    <span style={{ fontWeight: 800, color: totalScore >= 70 ? '#34d399' : '#fbbf24', fontSize: '0.82rem' }}>
+                      = {totalScore} / 100
                     </span>
                   </div>
-                ))}
-              </div>
-            </div>
+                </div>
+              );
+            })()}
 
             {/* Guardrail Policy Audit */}
             <div

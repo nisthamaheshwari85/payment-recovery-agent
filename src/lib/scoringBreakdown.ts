@@ -17,7 +17,7 @@ export interface ComputedScoreBreakdown {
  * derived transparently from actual transaction and customer fields.
  */
 export function computeExplainableScoreBreakdown(
-  tx: Transaction,
+  tx: Partial<Transaction> & Pick<Transaction, 'failure_bucket' | 'amount'>,
   customer?: Customer | null
 ): ComputedScoreBreakdown {
   const items: ScoreItem[] = [];
@@ -163,11 +163,11 @@ export function computeExplainableScoreBreakdown(
     explanation: 'Benchmark checkout confidence on modern payment gateways',
   });
 
+  // Literal sum of exact items — exactly ONE source of truth
   const rawTotal = items.reduce((acc, item) => acc + item.points, 0);
-  const finalScore = Math.max(5, Math.min(98, rawTotal));
 
   return {
     items,
-    total_score: finalScore,
+    total_score: rawTotal,
   };
 }

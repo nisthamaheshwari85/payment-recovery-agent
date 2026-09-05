@@ -9,6 +9,7 @@ import {
   AnalyticsSummary,
   FailureBucket,
 } from './types';
+import { computeExplainableScoreBreakdown } from './scoringBreakdown';
 
 // Supabase client config
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
@@ -139,13 +140,32 @@ export const db = {
       result = result.filter((tx) => tx.failure_bucket === filter.bucket);
     }
 
-    // Hydrate customer and attempts
+    // Hydrate customer and attempts with fail-safe defaults (no blank names/IDs/scores)
     const customerMap = new Map(store.customers.map((c) => [c.id, c]));
-    result = result.map((tx) => ({
-      ...tx,
-      customer: customerMap.get(tx.customer_id),
-      recovery_attempts: store.recovery_attempts.filter((a) => a.transaction_id === tx.id),
-    }));
+    result = result.map((tx) => {
+      let cust = customerMap.get(tx.customer_id) || tx.customer;
+      if (!cust) {
+        cust = {
+          id: tx.customer_id || `cust_${tx.id}`,
+          name: `Customer ${tx.id.replace(/^tx_/, '').toUpperCase()}`,
+          phone: '+919876543210',
+          total_failed: 1,
+          total_recovered: tx.status === 'recovered' ? 1 : 0,
+          do_not_contact: false,
+          created_at: tx.created_at || new Date().toISOString(),
+        };
+      }
+      const score = tx.recoverability_score ?? computeExplainableScoreBreakdown(tx, cust).total_score;
+      const paymentId = tx.razorpay_payment_id || `pay_${tx.id}`;
+
+      return {
+        ...tx,
+        customer: cust,
+        recoverability_score: score,
+        razorpay_payment_id: paymentId,
+        recovery_attempts: store.recovery_attempts.filter((a) => a.transaction_id === tx.id),
+      };
+    });
 
     // Sort descending by created_at
     result.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
@@ -161,12 +181,27 @@ export const db = {
     const tx = store.transactions.find((t) => t.id === id);
     if (!tx) return null;
 
-    const customer = store.customers.find((c) => c.id === tx.customer_id);
+    let customer = store.customers.find((c) => c.id === tx.customer_id) || tx.customer;
+    if (!customer) {
+      customer = {
+        id: tx.customer_id || `cust_${tx.id}`,
+        name: `Customer ${tx.id.replace(/^tx_/, '').toUpperCase()}`,
+        phone: '+919876543210',
+        total_failed: 1,
+        total_recovered: tx.status === 'recovered' ? 1 : 0,
+        do_not_contact: false,
+        created_at: tx.created_at || new Date().toISOString(),
+      };
+    }
+    const score = tx.recoverability_score ?? computeExplainableScoreBreakdown(tx, customer).total_score;
+    const paymentId = tx.razorpay_payment_id || `pay_${tx.id}`;
     const attempts = store.recovery_attempts.filter((a) => a.transaction_id === tx.id);
 
     return {
       ...tx,
       customer,
+      recoverability_score: score,
+      razorpay_payment_id: paymentId,
       recovery_attempts: attempts,
     };
   },

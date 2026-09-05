@@ -84,6 +84,11 @@ export const PROHIBITED_DARK_PATTERNS = [
   /\burgent( action required)?\b/i,
   /\blose out\b/i,
   /\bdon'?t miss out\b/i,
+  // Unauthorized specific refund-timeline commitments (financial/compliance risk)
+  /refund.*?\b\d+[\s-]*(hour|hr|ghante|day|din|business day)s?\b/i,
+  /\b\d+[\s-]*(hour|hr|ghante|day|din|business day)s?.*?\brefund\b/i,
+  /\b\d+[\s-]*\d*[\s-]*(hour|hr|ghante|day|din)s?\s+(mein|me|within)?\s*(auto(matically)?\s*)?refund\b/i,
+  /\b(auto-?refund\s+(in|within)\s+\d+)/i,
 ];
 
 export function detectDarkPatterns(text: string): { hasViolation: boolean; matched: string[] } {
