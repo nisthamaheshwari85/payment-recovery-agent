@@ -32,6 +32,9 @@ async function verifyFix4() {
   console.log('\n--- 2. Checking Attribution Funnel Conversion Drop-offs ---');
   const analytics = await db.getAnalytics();
   const funnel = analytics.attribution_funnel;
+  if (!funnel) {
+    throw new Error('FAIL: Attribution funnel not found in analytics');
+  }
 
   console.log(`Messaged Count:         ${funnel.messaged_count}`);
   console.log(`Link Clicked Count:     ${funnel.link_clicked_count} (${funnel.click_rate}% click rate)`);
